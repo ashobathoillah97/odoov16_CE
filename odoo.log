@@ -1,0 +1,1299 @@
+2023-10-25 04:30:06,331 7948 INFO ? odoo: Odoo version 16.0-20231024 
+2023-10-25 04:30:06,331 7948 INFO ? odoo: Using configuration file at D:\odoo16W10\server\odoo.conf 
+2023-10-25 04:30:06,331 7948 INFO ? odoo: addons paths: ['D:\\odoo16W10\\server\\odoo\\addons', 'd:\\odoo16w10\\sessions\\addons\\16.0', 'd:\\odoo16w10\\server\\odoo\\addons'] 
+2023-10-25 04:30:06,331 7948 INFO ? odoo: database: openpg@localhost:5432 
+2023-10-25 04:30:06,972 7948 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe 
+2023-10-25 04:30:07,628 7948 WARNING ? py.warnings: D:\odoo16W10\python\lib\site-packages\num2words\lang_AR.py:191: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  File "D:\odoo16W10\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "D:\odoo16W10\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "D:\odoo16W10\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "D:\odoo16W10\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "D:\odoo16W10\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "D:\odoo16W10\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "D:\odoo16W10\server\odoo\modules\module.py", line 468, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "D:\odoo16W10\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "D:\odoo16W10\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "D:\odoo16W10\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "D:\odoo16W10\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "D:\odoo16W10\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "D:\odoo16W10\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2023-10-25 04:30:07,628 7948 WARNING ? py.warnings: D:\odoo16W10\python\lib\site-packages\num2words\lang_AR.py:195: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  File "D:\odoo16W10\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "D:\odoo16W10\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "D:\odoo16W10\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "D:\odoo16W10\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "D:\odoo16W10\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "D:\odoo16W10\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "D:\odoo16W10\server\odoo\modules\module.py", line 468, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "D:\odoo16W10\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "D:\odoo16W10\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "D:\odoo16W10\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "D:\odoo16W10\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "D:\odoo16W10\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "D:\odoo16W10\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2023-10-25 04:30:07,628 7948 WARNING ? py.warnings: D:\odoo16W10\python\lib\site-packages\num2words\lang_AR.py:229: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  File "D:\odoo16W10\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "D:\odoo16W10\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "D:\odoo16W10\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "D:\odoo16W10\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "D:\odoo16W10\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "D:\odoo16W10\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "D:\odoo16W10\server\odoo\modules\module.py", line 468, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "D:\odoo16W10\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "D:\odoo16W10\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "D:\odoo16W10\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "D:\odoo16W10\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "D:\odoo16W10\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "D:\odoo16W10\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2023-10-25 04:30:07,628 7948 WARNING ? py.warnings: D:\odoo16W10\python\lib\site-packages\num2words\lang_AR.py:231: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  File "D:\odoo16W10\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "D:\odoo16W10\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "D:\odoo16W10\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "D:\odoo16W10\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "D:\odoo16W10\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "D:\odoo16W10\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "D:\odoo16W10\server\odoo\modules\module.py", line 468, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "D:\odoo16W10\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "D:\odoo16W10\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "D:\odoo16W10\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "D:\odoo16W10\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "D:\odoo16W10\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "D:\odoo16W10\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2023-10-25 04:30:07,628 7948 WARNING ? py.warnings: D:\odoo16W10\python\lib\site-packages\num2words\lang_AR.py:239: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  File "D:\odoo16W10\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "D:\odoo16W10\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "D:\odoo16W10\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "D:\odoo16W10\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "D:\odoo16W10\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "D:\odoo16W10\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "D:\odoo16W10\server\odoo\modules\module.py", line 468, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "D:\odoo16W10\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "D:\odoo16W10\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "D:\odoo16W10\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "D:\odoo16W10\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "D:\odoo16W10\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "D:\odoo16W10\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2023-10-25 04:30:07,644 7948 WARNING ? py.warnings: D:\odoo16W10\python\lib\site-packages\num2words\lang_AR.py:253: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  File "D:\odoo16W10\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "D:\odoo16W10\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "D:\odoo16W10\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "D:\odoo16W10\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "D:\odoo16W10\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "D:\odoo16W10\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "D:\odoo16W10\server\odoo\modules\module.py", line 468, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "D:\odoo16W10\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "D:\odoo16W10\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "D:\odoo16W10\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "D:\odoo16W10\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "D:\odoo16W10\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "D:\odoo16W10\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2023-10-25 04:30:07,644 7948 WARNING ? py.warnings: D:\odoo16W10\python\lib\site-packages\num2words\lang_AR.py:291: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  File "D:\odoo16W10\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "D:\odoo16W10\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "D:\odoo16W10\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "D:\odoo16W10\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "D:\odoo16W10\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "D:\odoo16W10\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "D:\odoo16W10\server\odoo\modules\module.py", line 468, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "D:\odoo16W10\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "D:\odoo16W10\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "D:\odoo16W10\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "D:\odoo16W10\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "D:\odoo16W10\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "D:\odoo16W10\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2023-10-25 04:30:07,644 7948 WARNING ? py.warnings: D:\odoo16W10\python\lib\site-packages\num2words\lang_AR.py:302: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  File "D:\odoo16W10\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "D:\odoo16W10\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "D:\odoo16W10\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "D:\odoo16W10\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "D:\odoo16W10\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "D:\odoo16W10\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "D:\odoo16W10\server\odoo\modules\module.py", line 468, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "D:\odoo16W10\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "D:\odoo16W10\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "D:\odoo16W10\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "D:\odoo16W10\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "D:\odoo16W10\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "D:\odoo16W10\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2023-10-25 04:30:07,644 7948 WARNING ? py.warnings: D:\odoo16W10\python\lib\site-packages\num2words\lang_AR.py:305: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  File "D:\odoo16W10\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "D:\odoo16W10\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "D:\odoo16W10\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "D:\odoo16W10\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "D:\odoo16W10\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "D:\odoo16W10\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "D:\odoo16W10\server\odoo\modules\module.py", line 468, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "D:\odoo16W10\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "D:\odoo16W10\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "D:\odoo16W10\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "D:\odoo16W10\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "D:\odoo16W10\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "D:\odoo16W10\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2023-10-25 04:30:07,831 7948 INFO ? odoo.service.server: Initiating shutdown 
+2023-10-25 04:30:07,831 7948 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-10-25 04:30:23,753 7120 INFO ? odoo: Odoo version 16.0-20231024 
+2023-10-25 04:30:23,753 7120 INFO ? odoo: Using configuration file at D:\odoo16W10\server\odoo.conf 
+2023-10-25 04:30:23,753 7120 INFO ? odoo: addons paths: ['D:\\odoo16W10\\server\\odoo\\addons', 'd:\\odoo16w10\\sessions\\addons\\16.0', 'd:\\odoo16w10\\server\\odoo\\addons'] 
+2023-10-25 04:30:23,753 7120 INFO ? odoo: database: openpg@localhost:5432 
+2023-10-25 04:30:24,988 7120 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at D:\odoo16W10\thirdparty\wkhtmltopdf.exe 
+2023-10-25 04:30:25,441 7120 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-738E1NJ:8069 
+2023-10-25 04:30:29,550 7120 INFO ? odoo.sql_db: Connection to the database failed 
+2023-10-25 04:30:33,707 7120 INFO ? odoo.sql_db: Connection to the database failed 
+2023-10-25 04:37:33,056 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:37:33] "GET / HTTP/1.1" 303 - 1 0.049 0.506
+2023-10-25 04:37:33,239 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:37:33] "GET /web HTTP/1.1" 303 - 2 0.002 0.057
+2023-10-25 04:37:34,952 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:37:34] "GET /web/database/selector HTTP/1.1" 200 - 2 0.016 1.667
+2023-10-25 04:37:35,542 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:37:35] "GET /web/static/src/libs/fontawesome/css/font-awesome.css HTTP/1.1" 200 - 1 0.000 0.181
+2023-10-25 04:37:35,542 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:37:35] "GET /web/static/lib/bootstrap/dist/css/bootstrap.css HTTP/1.1" 200 - 1 0.002 0.178
+2023-10-25 04:37:35,544 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:37:35] "GET /web/static/lib/bootstrap/js/dist/dom/data.js HTTP/1.1" 200 - 1 0.002 0.179
+2023-10-25 04:37:35,544 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:37:35] "GET /web/static/lib/bootstrap/js/dist/dom/manipulator.js HTTP/1.1" 200 - 1 0.000 0.179
+2023-10-25 04:37:35,544 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:37:35] "GET /web/static/lib/bootstrap/js/dist/dom/event-handler.js HTTP/1.1" 200 - 1 0.000 0.180
+2023-10-25 04:37:35,544 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:37:35] "GET /web/static/lib/bootstrap/js/dist/dom/selector-engine.js HTTP/1.1" 200 - 1 0.012 0.166
+2023-10-25 04:37:35,928 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:37:35] "GET /web/static/lib/bootstrap/js/dist/base-component.js HTTP/1.1" 200 - 1 0.002 0.066
+2023-10-25 04:37:35,928 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:37:35] "GET /web/static/lib/bootstrap/js/dist/modal.js HTTP/1.1" 200 - 1 0.000 0.067
+2023-10-25 04:37:35,928 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:37:35] "GET /web/static/src/public/database_manager.js HTTP/1.1" 200 - 1 0.000 0.067
+2023-10-25 04:37:36,095 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:37:36] "GET /web/static/lib/bootstrap/js/dist/dom/data.js HTTP/1.1" 200 - 1 0.002 0.099
+2023-10-25 04:37:36,097 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:37:36] "GET /web/static/lib/bootstrap/js/dist/dom/manipulator.js HTTP/1.1" 200 - 1 0.002 0.100
+2023-10-25 04:37:36,097 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:37:36] "GET /web/static/lib/bootstrap/js/dist/dom/event-handler.js HTTP/1.1" 200 - 1 0.002 0.098
+2023-10-25 04:37:36,098 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:37:36] "GET /web/static/lib/bootstrap/js/dist/dom/selector-engine.js HTTP/1.1" 200 - 1 0.002 0.098
+2023-10-25 04:37:36,290 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:37:36] "GET /web/static/lib/bootstrap/js/dist/base-component.js HTTP/1.1" 200 - 1 0.002 0.030
+2023-10-25 04:37:36,371 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:37:36] "GET /web/static/img/logo2.png HTTP/1.1" 200 - 1 0.002 0.050
+2023-10-25 04:37:36,373 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:37:36] "GET /web/static/lib/bootstrap/js/dist/modal.js HTTP/1.1" 200 - 1 0.002 0.051
+2023-10-25 04:37:36,441 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:37:36] "GET /web/static/src/public/database_manager.js HTTP/1.1" 200 - 1 0.003 0.026
+2023-10-25 04:37:37,220 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:37:37] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 1 0.000 0.062
+2023-10-25 04:37:37,595 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:37:37] "GET /web/static/img/favicon.ico HTTP/1.1" 200 - 1 0.000 0.016
+2023-10-25 04:38:57,578 7120 INFO None odoo.service.db: Create database `juleb_inv`. 
+2023-10-25 04:39:06,341 7120 INFO juleb_inv odoo.modules.loading: loading 1 modules... 
+2023-10-25 04:39:06,341 7120 INFO juleb_inv odoo.modules.loading: Loading module base (1/1) 
+2023-10-25 04:39:06,375 7120 INFO juleb_inv odoo.modules.registry: module base: creating or updating database tables 
+2023-10-25 04:39:10,210 7120 INFO juleb_inv odoo.models: Prepare computation of ir.module.module.menus_by_module 
+2023-10-25 04:39:10,210 7120 INFO juleb_inv odoo.models: Prepare computation of ir.module.module.reports_by_module 
+2023-10-25 04:39:10,211 7120 INFO juleb_inv odoo.models: Prepare computation of ir.module.module.views_by_module 
+2023-10-25 04:39:11,752 7120 INFO juleb_inv odoo.models: Prepare computation of res.partner.user_id 
+2023-10-25 04:39:11,753 7120 INFO juleb_inv odoo.models: Prepare computation of res.partner.commercial_partner_id 
+2023-10-25 04:39:11,753 7120 INFO juleb_inv odoo.models: Prepare computation of res.partner.display_name 
+2023-10-25 04:39:11,753 7120 INFO juleb_inv odoo.models: Prepare computation of res.partner.company_registry 
+2023-10-25 04:39:11,753 7120 INFO juleb_inv odoo.models: Prepare computation of res.partner.commercial_company_name 
+2023-10-25 04:39:11,754 7120 INFO juleb_inv odoo.models: Prepare computation of res.partner.partner_share 
+2023-10-25 04:39:12,100 7120 INFO juleb_inv odoo.models: Prepare computation of res.currency.decimal_places 
+2023-10-25 04:39:12,334 7120 INFO juleb_inv odoo.models: Prepare computation of res.company.logo_web 
+2023-10-25 04:39:12,585 7120 INFO juleb_inv odoo.models: Prepare computation of res.users.signature 
+2023-10-25 04:39:12,585 7120 INFO juleb_inv odoo.models: Prepare computation of res.users.share 
+2023-10-25 04:39:18,844 7120 INFO juleb_inv odoo.modules.loading: loading base/data/res_bank.xml 
+2023-10-25 04:39:18,911 7120 INFO juleb_inv odoo.modules.loading: loading base/data/res.lang.csv 
+2023-10-25 04:39:19,030 7120 INFO juleb_inv odoo.modules.loading: loading base/data/res_lang_data.xml 
+2023-10-25 04:39:19,087 7120 INFO juleb_inv odoo.modules.loading: loading base/data/res_partner_data.xml 
+2023-10-25 04:39:19,153 7120 INFO juleb_inv odoo.modules.loading: loading base/data/res_currency_data.xml 
+2023-10-25 04:39:19,506 7120 INFO juleb_inv odoo.modules.loading: loading base/data/res_company_data.xml 
+2023-10-25 04:39:19,529 7120 INFO juleb_inv odoo.modules.loading: loading base/data/res_users_data.xml 
+2023-10-25 04:39:20,113 7120 INFO juleb_inv odoo.modules.loading: loading base/data/report_paperformat_data.xml 
+2023-10-25 04:39:20,130 7120 INFO juleb_inv odoo.modules.loading: loading base/data/res_country_data.xml 
+2023-10-25 04:39:20,513 7120 INFO juleb_inv odoo.modules.loading: loading base/data/ir_demo_data.xml 
+2023-10-25 04:39:20,531 7120 INFO juleb_inv odoo.modules.loading: loading base/data/ir_config_parameter_data.xml 
+2023-10-25 04:39:20,531 7120 INFO juleb_inv odoo.modules.loading: loading base/security/base_groups.xml 
+2023-10-25 04:39:20,731 7120 INFO juleb_inv odoo.modules.loading: loading base/security/base_security.xml 
+2023-10-25 04:39:20,828 7120 INFO juleb_inv odoo.modules.loading: loading base/views/base_menus.xml 
+2023-10-25 04:39:20,907 7120 INFO juleb_inv odoo.modules.loading: loading base/views/decimal_precision_views.xml 
+2023-10-25 04:39:20,914 7120 INFO juleb_inv odoo.modules.loading: loading base/views/res_config_views.xml 
+2023-10-25 04:39:20,932 7120 INFO juleb_inv odoo.modules.loading: loading base/data/res.country.state.csv 
+2023-10-25 04:39:21,532 7120 INFO juleb_inv odoo.modules.loading: loading base/views/ir_actions_views.xml 
+2023-10-25 04:39:21,636 7120 INFO juleb_inv odoo.modules.loading: loading base/views/ir_asset_views.xml 
+2023-10-25 04:39:21,649 7120 INFO juleb_inv odoo.modules.loading: loading base/views/ir_config_parameter_views.xml 
+2023-10-25 04:39:21,666 7120 INFO juleb_inv odoo.modules.loading: loading base/views/ir_cron_views.xml 
+2023-10-25 04:39:21,708 7120 INFO juleb_inv odoo.modules.loading: loading base/views/ir_cron_trigger_views.xml 
+2023-10-25 04:39:21,715 7120 INFO juleb_inv odoo.modules.loading: loading base/views/ir_filters_views.xml 
+2023-10-25 04:39:21,733 7120 INFO juleb_inv odoo.modules.loading: loading base/views/ir_mail_server_views.xml 
+2023-10-25 04:39:21,766 7120 INFO juleb_inv odoo.modules.loading: loading base/views/ir_model_views.xml 
+2023-10-25 04:39:21,908 7120 INFO juleb_inv odoo.modules.loading: loading base/views/ir_attachment_views.xml 
+2023-10-25 04:39:21,916 7120 INFO juleb_inv odoo.modules.loading: loading base/views/ir_rule_views.xml 
+2023-10-25 04:39:21,955 7120 INFO juleb_inv odoo.modules.loading: loading base/views/ir_sequence_views.xml 
+2023-10-25 04:39:21,975 7120 INFO juleb_inv odoo.modules.loading: loading base/views/ir_ui_menu_views.xml 
+2023-10-25 04:39:21,982 7120 INFO juleb_inv odoo.modules.loading: loading base/views/ir_ui_view_views.xml 
+2023-10-25 04:39:22,039 7120 INFO juleb_inv odoo.modules.loading: loading base/views/ir_default_views.xml 
+2023-10-25 04:39:22,049 7120 INFO juleb_inv odoo.modules.loading: loading base/data/ir_cron_data.xml 
+2023-10-25 04:39:22,049 7120 INFO juleb_inv odoo.modules.loading: loading base/report/ir_model_report.xml 
+2023-10-25 04:39:22,067 7120 INFO juleb_inv odoo.modules.loading: loading base/report/ir_model_templates.xml 
+2023-10-25 04:39:22,067 7120 INFO juleb_inv odoo.modules.loading: loading base/views/ir_logging_views.xml 
+2023-10-25 04:39:22,094 7120 INFO juleb_inv odoo.modules.loading: loading base/views/ir_qweb_widget_templates.xml 
+2023-10-25 04:39:22,103 7120 INFO juleb_inv odoo.modules.loading: loading base/views/ir_module_views.xml 
+2023-10-25 04:39:22,177 7120 INFO juleb_inv odoo.modules.loading: loading base/data/ir_module_category_data.xml 
+2023-10-25 04:39:22,233 7120 INFO juleb_inv odoo.modules.loading: loading base/data/ir_module_module.xml 
+2023-10-25 04:39:22,293 7120 INFO juleb_inv odoo.modules.loading: loading base/report/ir_module_reports.xml 
+2023-10-25 04:39:22,297 7120 INFO juleb_inv odoo.modules.loading: loading base/report/ir_module_report_templates.xml 
+2023-10-25 04:39:22,303 7120 INFO juleb_inv odoo.modules.loading: loading base/wizard/base_module_update_views.xml 
+2023-10-25 04:39:22,313 7120 INFO juleb_inv odoo.modules.loading: loading base/wizard/base_language_install_views.xml 
+2023-10-25 04:39:22,316 7120 INFO juleb_inv odoo.modules.loading: loading base/wizard/base_import_language_views.xml 
+2023-10-25 04:39:22,334 7120 INFO juleb_inv odoo.modules.loading: loading base/wizard/base_module_upgrade_views.xml 
+2023-10-25 04:39:22,353 7120 INFO juleb_inv odoo.modules.loading: loading base/wizard/base_module_uninstall_views.xml 
+2023-10-25 04:39:22,360 7120 INFO juleb_inv odoo.modules.loading: loading base/wizard/base_export_language_views.xml 
+2023-10-25 04:39:22,371 7120 INFO juleb_inv odoo.modules.loading: loading base/wizard/base_partner_merge_views.xml 
+2023-10-25 04:39:22,383 7120 INFO juleb_inv odoo.modules.loading: loading base/data/ir_actions_data.xml 
+2023-10-25 04:39:22,383 7120 INFO juleb_inv odoo.modules.loading: loading base/data/ir_demo_failure_data.xml 
+2023-10-25 04:39:22,401 7120 INFO juleb_inv odoo.modules.loading: loading base/views/ir_profile_views.xml 
+2023-10-25 04:39:22,426 7120 INFO juleb_inv odoo.modules.loading: loading base/views/res_company_views.xml 
+2023-10-25 04:39:22,446 7120 INFO juleb_inv odoo.modules.loading: loading base/views/res_lang_views.xml 
+2023-10-25 04:39:22,467 7120 INFO juleb_inv odoo.modules.loading: loading base/views/res_partner_views.xml 
+2023-10-25 04:39:22,576 7120 INFO juleb_inv odoo.modules.loading: loading base/views/res_bank_views.xml 
+2023-10-25 04:39:22,601 7120 INFO juleb_inv odoo.modules.loading: loading base/views/res_country_views.xml 
+2023-10-25 04:39:22,641 7120 INFO juleb_inv odoo.modules.loading: loading base/views/res_currency_views.xml 
+2023-10-25 04:39:22,668 7120 INFO juleb_inv odoo.modules.loading: loading base/views/res_users_views.xml 
+2023-10-25 04:39:22,778 7120 INFO juleb_inv odoo.modules.loading: loading base/views/ir_property_views.xml 
+2023-10-25 04:39:22,784 7120 INFO juleb_inv odoo.modules.loading: loading base/views/res_config_settings_views.xml 
+2023-10-25 04:39:22,801 7120 INFO juleb_inv odoo.modules.loading: loading base/views/report_paperformat_views.xml 
+2023-10-25 04:39:22,828 7120 INFO juleb_inv odoo.modules.loading: loading base/views/onboarding_views.xml 
+2023-10-25 04:39:22,849 7120 INFO juleb_inv odoo.modules.loading: loading base/security/ir.model.access.csv 
+2023-10-25 04:39:23,251 7120 INFO juleb_inv odoo.modules.loading: Module base loaded in 16.91s, 7840 queries (+7840 other) 
+2023-10-25 04:39:23,251 7120 INFO juleb_inv odoo.modules.loading: 1 modules loaded in 16.91s, 7840 queries (+7840 extra) 
+2023-10-25 04:39:23,292 7120 INFO juleb_inv odoo.modules.loading: updating modules list 
+2023-10-25 04:39:23,292 7120 INFO juleb_inv odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2023-10-25 04:39:23,736 7120 INFO juleb_inv odoo.modules.loading: loading 8 modules... 
+2023-10-25 04:39:23,736 7120 INFO juleb_inv odoo.modules.loading: Loading module web (2/8) 
+2023-10-25 04:39:23,770 7120 INFO juleb_inv odoo.modules.registry: module web: creating or updating database tables 
+2023-10-25 04:39:24,287 7120 INFO juleb_inv odoo.modules.loading: loading web/security/ir.model.access.csv 
+2023-10-25 04:39:24,299 7120 INFO juleb_inv odoo.modules.loading: loading web/views/webclient_templates.xml 
+2023-10-25 04:39:24,337 7120 INFO juleb_inv odoo.modules.loading: loading web/views/report_templates.xml 
+2023-10-25 04:39:24,404 7120 INFO juleb_inv odoo.modules.loading: loading web/views/base_document_layout_views.xml 
+2023-10-25 04:39:24,430 7120 INFO juleb_inv odoo.modules.loading: loading web/views/speedscope_template.xml 
+2023-10-25 04:39:24,434 7120 INFO juleb_inv odoo.modules.loading: loading web/views/lazy_assets.xml 
+2023-10-25 04:39:24,440 7120 INFO juleb_inv odoo.modules.loading: loading web/views/neutralize_views.xml 
+2023-10-25 04:39:24,446 7120 INFO juleb_inv odoo.modules.loading: loading web/data/ir_attachment.xml 
+2023-10-25 04:39:24,453 7120 INFO juleb_inv odoo.modules.loading: loading web/data/report_layout.xml 
+2023-10-25 04:39:24,491 7120 INFO juleb_inv odoo.modules.loading: Module web loaded in 0.75s, 882 queries (+882 other) 
+2023-10-25 04:39:24,492 7120 INFO juleb_inv odoo.modules.loading: Loading module auth_totp (3/8) 
+2023-10-25 04:39:24,587 7120 INFO juleb_inv odoo.modules.registry: module auth_totp: creating or updating database tables 
+2023-10-25 04:39:24,835 7120 INFO juleb_inv odoo.modules.loading: loading auth_totp/security/security.xml 
+2023-10-25 04:39:24,854 7120 INFO juleb_inv odoo.modules.loading: loading auth_totp/security/ir.model.access.csv 
+2023-10-25 04:39:24,869 7120 INFO juleb_inv odoo.modules.loading: loading auth_totp/data/ir_action_data.xml 
+2023-10-25 04:39:24,969 7120 INFO juleb_inv odoo.modules.loading: loading auth_totp/views/res_users_views.xml 
+2023-10-25 04:39:25,048 7120 INFO juleb_inv odoo.modules.loading: loading auth_totp/views/templates.xml 
+2023-10-25 04:39:25,054 7120 INFO juleb_inv odoo.modules.loading: loading auth_totp/wizard/auth_totp_wizard_views.xml 
+2023-10-25 04:39:25,072 7120 INFO juleb_inv odoo.modules.loading: Module auth_totp loaded in 0.58s, 174 queries (+174 other) 
+2023-10-25 04:39:25,072 7120 INFO juleb_inv odoo.modules.loading: Loading module base_import (4/8) 
+2023-10-25 04:39:25,119 7120 INFO juleb_inv odoo.modules.registry: module base_import: creating or updating database tables 
+2023-10-25 04:39:26,875 7120 INFO juleb_inv odoo.modules.loading: loading base_import/security/ir.model.access.csv 
+2023-10-25 04:39:26,916 7120 INFO juleb_inv odoo.modules.loading: Module base_import loaded in 1.84s, 891 queries (+891 other) 
+2023-10-25 04:39:26,916 7120 INFO juleb_inv odoo.modules.loading: Loading module bus (5/8) 
+2023-10-25 04:39:26,965 7120 INFO juleb_inv odoo.modules.registry: module bus: creating or updating database tables 
+2023-10-25 04:39:27,258 7120 INFO juleb_inv odoo.modules.loading: loading bus/security/ir.model.access.csv 
+2023-10-25 04:39:27,275 7120 INFO juleb_inv odoo.modules.loading: Module bus loaded in 0.36s, 103 queries (+103 other) 
+2023-10-25 04:39:27,275 7120 INFO juleb_inv odoo.modules.loading: Loading module web_kanban_gauge (6/8) 
+2023-10-25 04:39:27,318 7120 INFO juleb_inv odoo.modules.loading: Module web_kanban_gauge loaded in 0.04s, 12 queries (+12 other) 
+2023-10-25 04:39:27,318 7120 INFO juleb_inv odoo.modules.loading: Loading module web_tour (7/8) 
+2023-10-25 04:39:27,340 7120 INFO juleb_inv odoo.modules.registry: module web_tour: creating or updating database tables 
+2023-10-25 04:39:27,507 7120 INFO juleb_inv odoo.modules.loading: loading web_tour/security/ir.model.access.csv 
+2023-10-25 04:39:27,516 7120 INFO juleb_inv odoo.modules.loading: loading web_tour/security/ir.rule.csv 
+2023-10-25 04:39:27,523 7120 INFO juleb_inv odoo.modules.loading: loading web_tour/views/tour_views.xml 
+2023-10-25 04:39:27,543 7120 INFO juleb_inv odoo.modules.loading: Module web_tour loaded in 0.22s, 101 queries (+101 other) 
+2023-10-25 04:39:27,543 7120 INFO juleb_inv odoo.modules.loading: Loading module web_editor (8/8) 
+2023-10-25 04:39:27,725 7120 INFO juleb_inv odoo.modules.registry: module web_editor: creating or updating database tables 
+2023-10-25 04:39:28,455 7120 INFO juleb_inv odoo.modules.loading: loading web_editor/security/ir.model.access.csv 
+2023-10-25 04:39:28,460 7120 INFO juleb_inv odoo.modules.loading: loading web_editor/data/editor_assets.xml 
+2023-10-25 04:39:28,460 7120 INFO juleb_inv odoo.modules.loading: loading web_editor/views/editor.xml 
+2023-10-25 04:39:28,477 7120 INFO juleb_inv odoo.modules.loading: loading web_editor/views/snippets.xml 
+2023-10-25 04:39:28,526 7120 INFO juleb_inv odoo.modules.loading: Module web_editor loaded in 0.98s, 821 queries (+821 other) 
+2023-10-25 04:39:28,526 7120 INFO juleb_inv odoo.modules.loading: 8 modules loaded in 4.79s, 2984 queries (+2984 extra) 
+2023-10-25 04:39:28,727 7120 INFO juleb_inv odoo.modules.loading: Modules loaded. 
+2023-10-25 04:39:28,727 7120 INFO juleb_inv odoo.modules.registry: Registry loaded in 22.399s 
+2023-10-25 04:39:29,328 7120 INFO juleb_inv odoo.addons.base.models.res_users: Login successful for db:juleb_inv login:admin from 127.0.0.1 
+2023-10-25 04:39:29,328 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:39:29] "POST /web/database/create HTTP/1.1" 303 - 15726 25.846 6.054
+2023-10-25 04:39:29,364 7120 INFO juleb_inv odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-10-25 04:39:29,461 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:39:29] "GET /web HTTP/1.1" 303 - 6 0.003 0.112
+2023-10-25 04:39:37,046 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:39:37] "GET /web/login HTTP/1.1" 200 - 68 0.026 7.558
+2023-10-25 04:39:37,391 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:39:37] "GET /web/assets/15-8b0d861/web.assets_frontend.min.css HTTP/1.1" 200 - 6 0.000 0.001
+2023-10-25 04:39:37,637 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:39:37] "GET /web/assets/16-5235616/web.assets_frontend_minimal.min.js HTTP/1.1" 200 - 5 0.000 0.094
+2023-10-25 04:39:37,994 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:39:37] "GET /web/assets/16-5235616/web.assets_frontend_minimal.min.js HTTP/1.1" 200 - 5 0.017 0.018
+2023-10-25 04:39:38,092 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:39:38] "GET /web/assets/17-c264b33/web.assets_frontend_lazy.min.js HTTP/1.1" 200 - 5 0.000 0.332
+2023-10-25 04:39:38,215 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:39:38] "GET /web/assets/17-c264b33/web.assets_frontend_lazy.min.js HTTP/1.1" 200 - 5 0.002 0.003
+2023-10-25 04:39:38,561 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:39:38] "GET /web/webclient/translations/1698208778235 HTTP/1.1" 200 - 3 0.000 0.000
+2023-10-25 04:39:38,826 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:39:38] "GET /web/webclient/translations/1698208778575 HTTP/1.1" 200 - 3 0.016 0.000
+2023-10-25 04:40:23,466 7120 INFO juleb_inv odoo.addons.base.models.res_users: Login successful for db:juleb_inv login:admin from 127.0.0.1 
+2023-10-25 04:40:23,483 7120 INFO juleb_inv odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2023-10-25 04:40:23,483 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:23] "POST /web/login HTTP/1.1" 303 - 42 0.033 0.340
+2023-10-25 04:40:36,721 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:36] "GET /web HTTP/1.1" 200 - 108 0.101 13.137
+2023-10-25 04:40:37,193 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:37] "GET /web/assets/18-7892f15/web.assets_common.min.css HTTP/1.1" 200 - 4 0.000 0.122
+2023-10-25 04:40:37,203 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:37] "GET /web/webclient/load_menus/3b5665afdb76f0b35edca6c8b7486724a31b5c9e8fd5a2aa71a636993cb1dd9b HTTP/1.1" 200 - 2 0.005 0.127
+2023-10-25 04:40:37,204 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:37] "GET /web/assets/19-82d8090/web.assets_backend.min.css HTTP/1.1" 200 - 4 0.002 0.131
+2023-10-25 04:40:37,204 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:37] "GET /web/assets/22-3e97550/web.assets_backend_prod_only.min.js HTTP/1.1" 200 - 4 0.002 0.131
+2023-10-25 04:40:37,264 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:37] "GET /web/assets/22-3e97550/web.assets_backend_prod_only.min.js HTTP/1.1" 200 - 4 0.001 0.004
+2023-10-25 04:40:37,315 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:37] "GET /web/assets/21-82d8090/web.assets_backend.min.js HTTP/1.1" 200 - 4 0.002 0.241
+2023-10-25 04:40:37,441 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:37] "GET /web/assets/20-7892f15/web.assets_common.min.js HTTP/1.1" 200 - 4 0.000 0.370
+2023-10-25 04:40:37,534 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:37] "GET /web/webclient/translations/65607f58d5469d51a5b051eb66c57db2c3d405a5?lang=en_US HTTP/1.1" 200 - 3 0.009 0.003
+2023-10-25 04:40:37,711 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:37] "GET /web/assets/21-82d8090/web.assets_backend.min.js HTTP/1.1" 200 - 4 0.001 0.004
+2023-10-25 04:40:37,799 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:37] "GET /web/assets/20-7892f15/web.assets_common.min.js HTTP/1.1" 200 - 4 0.002 0.003
+2023-10-25 04:40:38,157 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:38] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 200 - 0 0.000 0.000
+2023-10-25 04:40:38,251 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:38] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 15 0.024 0.019
+2023-10-25 04:40:38,262 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:38] "POST /web/action/load HTTP/1.1" 200 - 11 0.038 0.018
+2023-10-25 04:40:38,326 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:38] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 200 - 9 0.011 0.092
+2023-10-25 04:40:38,438 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:38] "GET /web/webclient/locale/en_US HTTP/1.1" 200 - 1 0.000 0.007
+2023-10-25 04:40:38,468 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:38] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 43 0.022 0.038
+2023-10-25 04:40:38,608 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:38] "GET /web/image/res.company/1/favicon HTTP/1.1" 200 - 10 0.000 0.000
+2023-10-25 04:40:38,641 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:38] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.001
+2023-10-25 04:40:38,641 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:38] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 41 0.025 0.008
+2023-10-25 04:40:38,641 7120 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2023-10-25 04:40:38,741 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:38] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 200 - 4 0.000 0.001
+2023-10-25 04:40:38,807 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:38] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.000 0.000
+2023-10-25 04:40:38,989 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:38] "GET /sale_management/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.002
+2023-10-25 04:40:39,295 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:39] "GET /base/static/img/icons/quality_control.png HTTP/1.1" 200 - 0 0.000 0.003
+2023-10-25 04:40:39,310 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:39] "GET /data_recycle/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2023-10-25 04:40:39,314 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:39] "GET /base/static/img/icons/web_studio.png HTTP/1.1" 200 - 0 0.000 0.004
+2023-10-25 04:40:39,315 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:39] "GET /project/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.005
+2023-10-25 04:40:39,318 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:39] "GET /base/static/img/icons/sale_subscription.png HTTP/1.1" 200 - 0 0.000 0.008
+2023-10-25 04:40:39,320 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:39] "GET /hr_expense/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2023-10-25 04:40:39,651 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:39] "GET /hr/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.018
+2023-10-25 04:40:39,664 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:39] "GET /website_sale/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.031
+2023-10-25 04:40:39,667 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:39] "GET /hr_holidays/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.036
+2023-10-25 04:40:39,671 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:39] "GET /website_slides/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.035
+2023-10-25 04:40:39,675 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:39] "GET /base/static/img/icons/sign.png HTTP/1.1" 200 - 0 0.000 0.029
+2023-10-25 04:40:39,680 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:39] "GET /base/static/img/icons/helpdesk.png HTTP/1.1" 200 - 0 0.000 0.017
+2023-10-25 04:40:39,962 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:39] "GET /base/static/img/icons/industry_fsm.png HTTP/1.1" 200 - 0 0.000 0.000
+2023-10-25 04:40:39,984 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:39] "GET /purchase/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.006
+2023-10-25 04:40:39,997 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:39] "GET /mrp/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2023-10-25 04:40:39,998 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:39] "GET /base/static/img/icons/timesheet_grid.png HTTP/1.1" 200 - 0 0.000 0.000
+2023-10-25 04:40:39,998 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:39] "GET /maintenance/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.000
+2023-10-25 04:40:40,009 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:40] "GET /hr_recruitment/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.012
+2023-10-25 04:40:40,283 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:40] "GET /point_of_sale/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.000
+2023-10-25 04:40:40,304 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:40] "GET /mass_mailing/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.021
+2023-10-25 04:40:40,330 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:40] "GET /account/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.017
+2023-10-25 04:40:40,330 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:40] "GET /website/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.000
+2023-10-25 04:40:40,330 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:40] "GET /base/static/img/icons/mrp_workorder.png HTTP/1.1" 200 - 0 0.000 0.000
+2023-10-25 04:40:40,330 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:40] "GET /crm/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2023-10-25 04:40:40,615 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:40] "GET /base/static/img/icons/account_accountant.png HTTP/1.1" 200 - 0 0.000 0.000
+2023-10-25 04:40:40,636 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:40] "GET /base/static/img/icons/knowledge.png HTTP/1.1" 200 - 0 0.000 0.004
+2023-10-25 04:40:40,652 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:40] "GET /base/static/img/icons/planning.png HTTP/1.1" 200 - 0 0.000 0.005
+2023-10-25 04:40:40,670 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:40] "GET /website_event/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2023-10-25 04:40:40,680 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:40] "GET /mail/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.010
+2023-10-25 04:40:40,682 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:40] "GET /contacts/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2023-10-25 04:40:40,933 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:40] "GET /base/static/img/icons/mrp_plm.png HTTP/1.1" 200 - 0 0.000 0.000
+2023-10-25 04:40:40,964 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:40] "GET /calendar/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2023-10-25 04:40:40,997 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:40] "GET /base/static/img/icons/social.png HTTP/1.1" 200 - 0 0.000 0.003
+2023-10-25 04:40:40,998 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:40] "GET /base/static/img/icons/hr_appraisal.png HTTP/1.1" 200 - 0 0.000 0.003
+2023-10-25 04:40:41,003 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:41] "GET /fleet/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.001
+2023-10-25 04:40:41,009 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:41] "GET /base/static/img/icons/marketing_automation.png HTTP/1.1" 200 - 0 0.000 0.002
+2023-10-25 04:40:41,259 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:41] "GET /im_livechat/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.000
+2023-10-25 04:40:41,279 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:41] "GET /base/static/img/icons/appointment.png HTTP/1.1" 200 - 0 0.000 0.020
+2023-10-25 04:40:41,328 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:41] "GET /base/static/img/icons/web_mobile.png HTTP/1.1" 200 - 0 0.000 0.009
+2023-10-25 04:40:41,328 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:41] "GET /survey/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.009
+2023-10-25 04:40:41,328 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:41] "GET /repair/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.007
+2023-10-25 04:40:41,328 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:41] "GET /hr_attendance/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.004
+2023-10-25 04:40:41,583 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:41] "GET /mass_mailing_sms/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.000
+2023-10-25 04:40:41,603 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:41] "GET /base/static/img/icons/stock_barcode.png HTTP/1.1" 200 - 0 0.000 0.019
+2023-10-25 04:40:41,645 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:41] "GET /note/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.000
+2023-10-25 04:40:41,661 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:41] "GET /hr_skills/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.016
+2023-10-25 04:40:41,682 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:41] "GET /base/static/img/icons/voip.png HTTP/1.1" 200 - 0 0.000 0.013
+2023-10-25 04:40:41,682 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:41] "GET /lunch/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.011
+2023-10-25 04:40:41,900 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:41] "GET /website_hr_recruitment/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.000
+2023-10-25 04:40:41,920 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:41] "GET /base/static/img/icons/sale_ebay.png HTTP/1.1" 200 - 0 0.000 0.020
+2023-10-25 04:40:41,979 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:41] "GET /hr_contract/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.000
+2023-10-25 04:40:43,533 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:43] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.000 0.034
+2023-10-25 04:40:43,565 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:43] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.035 0.031
+2023-10-25 04:40:43,765 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:43] "GET /base/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.000
+2023-10-25 04:40:43,928 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:40:43] "GET /l10n_ar_website_sale/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.000
+2023-10-25 04:41:00,543 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:41:00] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.032 0.014
+2023-10-25 04:41:00,893 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:41:00] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.015 0.017
+2023-10-25 04:41:01,115 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:41:01] "GET /website_sale_stock/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.003
+2023-10-25 04:41:02,679 7120 INFO juleb_inv odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['Inventory'] to user admin #2 via 127.0.0.1 
+2023-10-25 04:41:02,679 7120 INFO juleb_inv odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2023-10-25 04:41:02,679 7120 INFO juleb_inv odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Inventory'] to user admin #2 via 127.0.0.1 
+2023-10-25 04:41:02,780 7120 INFO juleb_inv odoo.modules.loading: loading 1 modules... 
+2023-10-25 04:41:02,797 7120 INFO juleb_inv odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
+2023-10-25 04:41:02,813 7120 INFO juleb_inv odoo.modules.loading: updating modules list 
+2023-10-25 04:41:02,813 7120 INFO juleb_inv odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2023-10-25 04:41:03,312 7120 INFO juleb_inv odoo.modules.loading: loading 8 modules... 
+2023-10-25 04:41:03,314 7120 INFO juleb_inv odoo.modules.loading: 8 modules loaded in 0.00s, 0 queries (+0 extra) 
+2023-10-25 04:41:03,314 7120 INFO juleb_inv odoo.modules.loading: loading 34 modules... 
+2023-10-25 04:41:03,314 7120 INFO juleb_inv odoo.modules.loading: Loading module uom (2/34) 
+2023-10-25 04:41:03,368 7120 INFO juleb_inv odoo.modules.registry: module uom: creating or updating database tables 
+2023-10-25 04:41:03,584 7120 INFO juleb_inv odoo.modules.loading: loading uom/data/uom_data.xml 
+2023-10-25 04:41:03,631 7120 INFO juleb_inv odoo.modules.loading: loading uom/security/uom_security.xml 
+2023-10-25 04:41:03,647 7120 INFO juleb_inv odoo.modules.loading: loading uom/security/ir.model.access.csv 
+2023-10-25 04:41:03,662 7120 INFO juleb_inv odoo.modules.loading: loading uom/views/uom_uom_views.xml 
+2023-10-25 04:41:03,694 7120 INFO juleb_inv odoo.modules.loading: Module uom loaded in 0.38s, 258 queries (+258 other) 
+2023-10-25 04:41:03,694 7120 INFO juleb_inv odoo.modules.loading: Loading module barcodes (5/34) 
+2023-10-25 04:41:03,772 7120 INFO juleb_inv odoo.modules.registry: module barcodes: creating or updating database tables 
+2023-10-25 04:41:03,959 7120 INFO juleb_inv odoo.modules.loading: loading barcodes/data/barcodes_data.xml 
+2023-10-25 04:41:03,975 7120 INFO juleb_inv odoo.modules.loading: loading barcodes/views/barcodes_view.xml 
+2023-10-25 04:41:04,006 7120 INFO juleb_inv odoo.modules.loading: loading barcodes/security/ir.model.access.csv 
+2023-10-25 04:41:04,022 7120 INFO juleb_inv odoo.modules.loading: Module barcodes loaded in 0.33s, 134 queries (+134 other) 
+2023-10-25 04:41:04,022 7120 INFO juleb_inv odoo.modules.loading: Loading module base_setup (7/34) 
+2023-10-25 04:41:04,053 7120 INFO juleb_inv odoo.modules.registry: module base_setup: creating or updating database tables 
+2023-10-25 04:41:04,100 7120 INFO juleb_inv odoo.modules.loading: loading base_setup/data/base_setup_data.xml 
+2023-10-25 04:41:04,100 7120 INFO juleb_inv odoo.modules.loading: loading base_setup/views/res_config_settings_views.xml 
+2023-10-25 04:41:04,131 7120 INFO juleb_inv odoo.modules.loading: loading base_setup/views/res_partner_views.xml 
+2023-10-25 04:41:04,147 7120 INFO juleb_inv odoo.modules.loading: Module base_setup loaded in 0.12s, 153 queries (+153 other) 
+2023-10-25 04:41:04,147 7120 INFO juleb_inv odoo.modules.loading: Loading module http_routing (9/34) 
+2023-10-25 04:41:04,162 7120 INFO juleb_inv odoo.modules.registry: module http_routing: creating or updating database tables 
+2023-10-25 04:41:04,178 7120 INFO juleb_inv odoo.modules.loading: loading http_routing/views/http_routing_template.xml 
+2023-10-25 04:41:04,209 7120 INFO juleb_inv odoo.modules.loading: loading http_routing/views/res_lang_views.xml 
+2023-10-25 04:41:04,225 7120 INFO juleb_inv odoo.modules.loading: Module http_routing loaded in 0.08s, 78 queries (+78 other) 
+2023-10-25 04:41:04,225 7120 INFO juleb_inv odoo.modules.loading: Loading module resource (10/34) 
+2023-10-25 04:41:04,284 7120 INFO juleb_inv odoo.modules.registry: module resource: creating or updating database tables 
+2023-10-25 04:41:05,122 7120 INFO juleb_inv odoo.modules.loading: loading resource/data/resource_data.xml 
+2023-10-25 04:41:05,138 7120 INFO juleb_inv odoo.modules.loading: loading resource/security/ir.model.access.csv 
+2023-10-25 04:41:05,153 7120 INFO juleb_inv odoo.modules.loading: loading resource/security/resource_security.xml 
+2023-10-25 04:41:05,169 7120 INFO juleb_inv odoo.modules.loading: loading resource/views/resource_views.xml 
+2023-10-25 04:41:05,263 7120 INFO juleb_inv odoo.modules.loading: Module resource loaded in 1.04s, 422 queries (+422 other) 
+2023-10-25 04:41:05,263 7120 INFO juleb_inv odoo.modules.loading: Loading module barcodes_gs1_nomenclature (13/34) 
+2023-10-25 04:41:05,310 7120 INFO juleb_inv odoo.modules.registry: module barcodes_gs1_nomenclature: creating or updating database tables 
+2023-10-25 04:41:05,341 7120 INFO juleb_inv odoo.modules.loading: loading barcodes_gs1_nomenclature/data/barcodes_gs1_rules.xml 
+2023-10-25 04:41:05,403 7120 INFO juleb_inv odoo.modules.loading: loading barcodes_gs1_nomenclature/views/barcodes_view.xml 
+2023-10-25 04:41:05,435 7120 INFO juleb_inv odoo.modules.loading: Module barcodes_gs1_nomenclature loaded in 0.17s, 196 queries (+196 other) 
+2023-10-25 04:41:05,435 7120 INFO juleb_inv odoo.modules.loading: Loading module iap (14/34) 
+2023-10-25 04:41:05,466 7120 INFO juleb_inv odoo.modules.registry: module iap: creating or updating database tables 
+2023-10-25 04:41:05,615 7120 INFO juleb_inv odoo.modules.loading: loading iap/security/ir.model.access.csv 
+2023-10-25 04:41:05,615 7120 INFO juleb_inv odoo.modules.loading: loading iap/security/ir_rule.xml 
+2023-10-25 04:41:05,630 7120 INFO juleb_inv odoo.modules.loading: loading iap/views/iap_views.xml 
+2023-10-25 04:41:05,646 7120 INFO juleb_inv odoo.modules.loading: loading iap/views/res_config_settings.xml 
+2023-10-25 04:41:05,677 7120 INFO juleb_inv odoo.modules.loading: Module iap loaded in 0.24s, 143 queries (+143 other) 
+2023-10-25 04:41:05,677 7120 INFO juleb_inv odoo.modules.loading: Loading module mail (15/34) 
+2023-10-25 04:41:06,015 7120 INFO juleb_inv odoo.modules.registry: module mail: creating or updating database tables 
+2023-10-25 04:41:06,249 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:41:06] "GET /web/static/img/spin.svg HTTP/1.1" 200 - 0 0.000 0.000
+2023-10-25 04:41:09,109 7120 INFO juleb_inv odoo.models: Prepare computation of ir.actions.server.partner_ids 
+2023-10-25 04:41:09,109 7120 INFO juleb_inv odoo.models: Prepare computation of ir.actions.server.template_id 
+2023-10-25 04:41:09,109 7120 INFO juleb_inv odoo.models: Prepare computation of ir.actions.server.activity_type_id 
+2023-10-25 04:41:09,109 7120 INFO juleb_inv odoo.models: Prepare computation of ir.actions.server.activity_date_deadline_range 
+2023-10-25 04:41:09,109 7120 INFO juleb_inv odoo.models: Prepare computation of ir.actions.server.activity_user_id 
+2023-10-25 04:41:09,109 7120 INFO juleb_inv odoo.models: Prepare computation of ir.actions.server.mail_post_method 
+2023-10-25 04:41:09,109 7120 INFO juleb_inv odoo.models: Prepare computation of ir.actions.server.activity_summary 
+2023-10-25 04:41:09,109 7120 INFO juleb_inv odoo.models: Prepare computation of ir.actions.server.activity_date_deadline_range_type 
+2023-10-25 04:41:09,109 7120 INFO juleb_inv odoo.models: Prepare computation of ir.actions.server.activity_user_type 
+2023-10-25 04:41:09,109 7120 INFO juleb_inv odoo.models: Prepare computation of ir.actions.server.activity_user_field_name 
+2023-10-25 04:41:09,109 7120 INFO juleb_inv odoo.models: Prepare computation of ir.actions.server.activity_note 
+2023-10-25 04:41:09,109 7120 INFO juleb_inv odoo.models: Prepare computation of ir.actions.server.mail_post_autofollow 
+2023-10-25 04:41:09,197 7120 INFO juleb_inv odoo.models: Prepare computation of res.partner.email_normalized 
+2023-10-25 04:41:09,204 7120 INFO juleb_inv odoo.models: Prepare computation of res.users.notification_type 
+2023-10-25 04:41:12,466 7120 INFO juleb_inv odoo.modules.loading: loading mail/data/mail_groups.xml 
+2023-10-25 04:41:12,530 7120 INFO juleb_inv odoo.modules.loading: loading mail/wizard/mail_blacklist_remove_views.xml 
+2023-10-25 04:41:12,546 7120 INFO juleb_inv odoo.modules.loading: loading mail/wizard/mail_compose_message_views.xml 
+2023-10-25 04:41:12,563 7120 INFO juleb_inv odoo.modules.loading: loading mail/wizard/mail_resend_message_views.xml 
+2023-10-25 04:41:12,580 7120 INFO juleb_inv odoo.modules.loading: loading mail/wizard/mail_template_preview_views.xml 
+2023-10-25 04:41:12,597 7120 INFO juleb_inv odoo.modules.loading: loading mail/wizard/mail_wizard_invite_views.xml 
+2023-10-25 04:41:12,597 7120 INFO juleb_inv odoo.modules.loading: loading mail/wizard/mail_template_reset_views.xml 
+2023-10-25 04:41:12,619 7120 INFO juleb_inv odoo.modules.loading: loading mail/views/fetchmail_views.xml 
+2023-10-25 04:41:12,638 7120 INFO juleb_inv odoo.modules.loading: loading mail/views/mail_message_subtype_views.xml 
+2023-10-25 04:41:12,646 7120 INFO juleb_inv odoo.modules.loading: loading mail/views/mail_tracking_views.xml 
+2023-10-25 04:41:12,667 7120 INFO juleb_inv odoo.modules.loading: loading mail/views/mail_notification_views.xml 
+2023-10-25 04:41:12,678 7120 INFO juleb_inv odoo.modules.loading: loading mail/views/mail_message_views.xml 
+2023-10-25 04:41:12,710 7120 INFO juleb_inv odoo.modules.loading: loading mail/views/mail_message_schedule_views.xml 
+2023-10-25 04:41:12,729 7120 INFO juleb_inv odoo.modules.loading: loading mail/views/mail_mail_views.xml 
+2023-10-25 04:41:12,746 7120 INFO juleb_inv odoo.modules.loading: loading mail/views/mail_followers_views.xml 
+2023-10-25 04:41:12,764 7120 INFO juleb_inv odoo.modules.loading: loading mail/views/mail_ice_server_views.xml 
+2023-10-25 04:41:12,786 7120 INFO juleb_inv odoo.modules.loading: loading mail/views/mail_channel_member_views.xml 
+2023-10-25 04:41:12,796 7120 INFO juleb_inv odoo.modules.loading: loading mail/views/mail_channel_rtc_session_views.xml 
+2023-10-25 04:41:12,814 7120 INFO juleb_inv odoo.modules.loading: loading mail/views/mail_link_preview_views.xml 
+2023-10-25 04:41:12,831 7120 INFO juleb_inv odoo.modules.loading: loading mail/views/mail_channel_views.xml 
+2023-10-25 04:41:12,847 7120 INFO juleb_inv odoo.modules.loading: loading mail/views/mail_shortcode_views.xml 
+2023-10-25 04:41:12,873 7120 INFO juleb_inv odoo.modules.loading: loading mail/views/mail_activity_views.xml 
+2023-10-25 04:41:12,931 7120 INFO juleb_inv odoo.modules.loading: loading mail/views/res_config_settings_views.xml 
+2023-10-25 04:41:12,971 7120 INFO juleb_inv odoo.modules.loading: loading mail/data/res_partner_data.xml 
+2023-10-25 04:41:12,992 7120 INFO juleb_inv odoo.modules.loading: loading mail/data/mail_message_subtype_data.xml 
+2023-10-25 04:41:12,997 7120 INFO juleb_inv odoo.modules.loading: loading mail/data/mail_templates_chatter.xml 
+2023-10-25 04:41:13,015 7120 INFO juleb_inv odoo.modules.loading: loading mail/data/mail_templates_email_layouts.xml 
+2023-10-25 04:41:13,044 7120 INFO juleb_inv odoo.modules.loading: loading mail/data/mail_templates_mailgateway.xml 
+2023-10-25 04:41:13,057 7120 INFO juleb_inv odoo.modules.loading: loading mail/data/mail_channel_data.xml 
+2023-10-25 04:41:13,083 7120 INFO juleb_inv odoo.modules.loading: loading mail/data/mail_activity_data.xml 
+2023-10-25 04:41:13,101 7120 INFO juleb_inv odoo.modules.loading: loading mail/data/ir_cron_data.xml 
+2023-10-25 04:41:13,131 7120 INFO juleb_inv odoo.modules.loading: loading mail/security/mail_security.xml 
+2023-10-25 04:41:13,247 7120 INFO juleb_inv odoo.modules.loading: loading mail/security/ir.model.access.csv 
+2023-10-25 04:41:13,319 7120 INFO juleb_inv odoo.modules.loading: loading mail/views/discuss_public_templates.xml 
+2023-10-25 04:41:13,329 7120 INFO juleb_inv odoo.modules.loading: loading mail/views/mail_alias_views.xml 
+2023-10-25 04:41:13,345 7120 INFO juleb_inv odoo.modules.loading: loading mail/views/mail_gateway_allowed_views.xml 
+2023-10-25 04:41:13,347 7120 INFO juleb_inv odoo.modules.loading: loading mail/views/mail_guest_views.xml 
+2023-10-25 04:41:13,368 7120 INFO juleb_inv odoo.modules.loading: loading mail/views/mail_message_reaction_views.xml 
+2023-10-25 04:41:13,375 7120 INFO juleb_inv odoo.modules.loading: loading mail/views/res_users_views.xml 
+2023-10-25 04:41:13,397 7120 INFO juleb_inv odoo.modules.loading: loading mail/views/res_users_settings_views.xml 
+2023-10-25 04:41:13,409 7120 INFO juleb_inv odoo.modules.loading: loading mail/views/mail_template_views.xml 
+2023-10-25 04:41:13,431 7120 INFO juleb_inv odoo.modules.loading: loading mail/views/ir_actions_server_views.xml 
+2023-10-25 04:41:13,448 7120 INFO juleb_inv odoo.modules.loading: loading mail/views/ir_model_views.xml 
+2023-10-25 04:41:13,478 7120 INFO juleb_inv odoo.modules.loading: loading mail/views/res_partner_views.xml 
+2023-10-25 04:41:13,531 7120 INFO juleb_inv odoo.modules.loading: loading mail/views/mail_blacklist_views.xml 
+2023-10-25 04:41:13,565 7120 INFO juleb_inv odoo.modules.loading: loading mail/views/mail_menus.xml 
+2023-10-25 04:41:13,731 7120 INFO juleb_inv odoo.modules.loading: Module mail loaded in 8.05s, 3449 queries (+3449 other) 
+2023-10-25 04:41:13,731 7120 INFO juleb_inv odoo.modules.loading: Loading module auth_signup (17/34) 
+2023-10-25 04:41:13,814 7120 INFO juleb_inv odoo.modules.registry: module auth_signup: creating or updating database tables 
+2023-10-25 04:41:13,959 7120 INFO juleb_inv odoo.modules.loading: loading auth_signup/data/ir_config_parameter_data.xml 
+2023-10-25 04:41:13,972 7120 INFO juleb_inv odoo.modules.loading: loading auth_signup/data/ir_cron_data.xml 
+2023-10-25 04:41:13,981 7120 INFO juleb_inv odoo.modules.loading: loading auth_signup/data/mail_template_data.xml 
+2023-10-25 04:41:13,999 7120 INFO juleb_inv odoo.modules.loading: loading auth_signup/views/res_config_settings_views.xml 
+2023-10-25 04:41:14,032 7120 INFO juleb_inv odoo.modules.loading: loading auth_signup/views/res_users_views.xml 
+2023-10-25 04:41:14,066 7120 INFO juleb_inv odoo.modules.loading: loading auth_signup/views/auth_signup_login_templates.xml 
+2023-10-25 04:41:14,092 7120 INFO juleb_inv odoo.modules.loading: loading auth_signup/views/webclient_templates.xml 
+2023-10-25 04:41:14,133 7120 INFO juleb_inv odoo.modules.loading: Module auth_signup loaded in 0.40s, 191 queries (+191 other) 
+2023-10-25 04:41:14,133 7120 INFO juleb_inv odoo.modules.loading: Loading module auth_totp_mail (18/34) 
+2023-10-25 04:41:14,182 7120 INFO juleb_inv odoo.modules.registry: module auth_totp_mail: creating or updating database tables 
+2023-10-25 04:41:14,214 7120 INFO juleb_inv odoo.modules.loading: loading auth_totp_mail/data/ir_action_data.xml 
+2023-10-25 04:41:14,233 7120 INFO juleb_inv odoo.modules.loading: loading auth_totp_mail/data/mail_template_data.xml 
+2023-10-25 04:41:14,233 7120 INFO juleb_inv odoo.modules.loading: loading auth_totp_mail/views/res_users_views.xml 
+2023-10-25 04:41:14,282 7120 INFO juleb_inv odoo.modules.loading: Module auth_totp_mail loaded in 0.15s, 92 queries (+92 other) 
+2023-10-25 04:41:14,282 7120 INFO juleb_inv odoo.modules.loading: Loading module base_install_request (19/34) 
+2023-10-25 04:41:14,399 7120 INFO juleb_inv odoo.modules.registry: module base_install_request: creating or updating database tables 
+2023-10-25 04:41:14,618 7120 INFO juleb_inv odoo.modules.loading: loading base_install_request/security/ir.model.access.csv 
+2023-10-25 04:41:14,643 7120 INFO juleb_inv odoo.modules.loading: loading base_install_request/wizard/base_module_install_request_views.xml 
+2023-10-25 04:41:14,649 7120 INFO juleb_inv odoo.modules.loading: loading base_install_request/data/mail_template_data.xml 
+2023-10-25 04:41:14,668 7120 INFO juleb_inv odoo.modules.loading: loading base_install_request/data/mail_templates_module_install.xml 
+2023-10-25 04:41:14,673 7120 INFO juleb_inv odoo.modules.loading: loading base_install_request/views/ir_module_module_views.xml 
+2023-10-25 04:41:14,695 7120 INFO juleb_inv odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Project', 'Email Marketing', 'Employees', 'Surveys'] to user __system__ #1 via 127.0.0.1 
+2023-10-25 04:41:14,767 7120 INFO juleb_inv odoo.modules.loading: Module base_install_request loaded in 0.48s, 190 queries (+190 other) 
+2023-10-25 04:41:14,767 7120 INFO juleb_inv odoo.modules.loading: Loading module google_gmail (20/34) 
+2023-10-25 04:41:14,832 7120 INFO juleb_inv odoo.modules.registry: module google_gmail: creating or updating database tables 
+2023-10-25 04:41:14,892 7120 INFO juleb_inv odoo.modules.loading: loading google_gmail/views/fetchmail_server_views.xml 
+2023-10-25 04:41:14,900 7120 INFO juleb_inv odoo.modules.loading: loading google_gmail/views/ir_mail_server_views.xml 
+2023-10-25 04:41:14,925 7120 INFO juleb_inv odoo.modules.loading: loading google_gmail/views/res_config_settings_views.xml 
+2023-10-25 04:41:14,963 7120 INFO juleb_inv odoo.modules.loading: Module google_gmail loaded in 0.20s, 123 queries (+123 other) 
+2023-10-25 04:41:14,963 7120 INFO juleb_inv odoo.modules.loading: Loading module iap_mail (21/34) 
+2023-10-25 04:41:15,006 7120 INFO juleb_inv odoo.modules.registry: module iap_mail: creating or updating database tables 
+2023-10-25 04:41:15,016 7120 INFO juleb_inv odoo.modules.loading: loading iap_mail/data/mail_templates.xml 
+2023-10-25 04:41:15,056 7120 INFO juleb_inv odoo.modules.loading: Module iap_mail loaded in 0.09s, 36 queries (+36 other) 
+2023-10-25 04:41:15,057 7120 INFO juleb_inv odoo.modules.loading: Loading module mail_bot (22/34) 
+2023-10-25 04:41:15,101 7120 INFO juleb_inv odoo.modules.registry: module mail_bot: creating or updating database tables 
+2023-10-25 04:41:15,203 7120 INFO juleb_inv odoo.modules.loading: loading mail_bot/views/res_users_views.xml 
+2023-10-25 04:41:15,236 7120 INFO juleb_inv odoo.modules.loading: loading mail_bot/data/mailbot_data.xml 
+2023-10-25 04:41:15,256 7120 INFO juleb_inv odoo.modules.loading: Module mail_bot loaded in 0.20s, 131 queries (+131 other) 
+2023-10-25 04:41:15,256 7120 INFO juleb_inv odoo.modules.loading: Loading module phone_validation (23/34) 
+2023-10-25 04:41:15,318 7120 INFO juleb_inv odoo.modules.registry: module phone_validation: creating or updating database tables 
+2023-10-25 04:41:15,562 7120 INFO juleb_inv odoo.modules.loading: loading phone_validation/security/ir.model.access.csv 
+2023-10-25 04:41:15,567 7120 INFO juleb_inv odoo.modules.loading: loading phone_validation/views/phone_blacklist_views.xml 
+2023-10-25 04:41:15,605 7120 INFO juleb_inv odoo.modules.loading: loading phone_validation/wizard/phone_blacklist_remove_view.xml 
+2023-10-25 04:41:15,617 7120 INFO juleb_inv odoo.modules.loading: Module phone_validation loaded in 0.36s, 161 queries (+161 other) 
+2023-10-25 04:41:15,617 7120 INFO juleb_inv odoo.modules.loading: Loading module privacy_lookup (24/34) 
+2023-10-25 04:41:15,687 7120 INFO juleb_inv odoo.modules.registry: module privacy_lookup: creating or updating database tables 
+2023-10-25 04:41:15,978 7120 INFO juleb_inv odoo.modules.loading: loading privacy_lookup/wizard/privacy_lookup_wizard_views.xml 
+2023-10-25 04:41:16,002 7120 INFO juleb_inv odoo.modules.loading: loading privacy_lookup/views/privacy_log_views.xml 
+2023-10-25 04:41:16,036 7120 INFO juleb_inv odoo.modules.loading: loading privacy_lookup/security/ir.model.access.csv 
+2023-10-25 04:41:16,051 7120 INFO juleb_inv odoo.modules.loading: loading privacy_lookup/data/ir_actions_server_data.xml 
+2023-10-25 04:41:16,068 7120 INFO juleb_inv odoo.modules.loading: Module privacy_lookup loaded in 0.45s, 225 queries (+225 other) 
+2023-10-25 04:41:16,068 7120 INFO juleb_inv odoo.modules.loading: Loading module product (25/34) 
+2023-10-25 04:41:16,463 7120 INFO juleb_inv odoo.modules.registry: module product: creating or updating database tables 
+2023-10-25 04:41:20,085 7120 INFO juleb_inv odoo.modules.loading: loading product/data/product_data.xml 
+2023-10-25 04:41:20,109 7120 INFO juleb_inv odoo.modules.loading: loading product/security/product_security.xml 
+2023-10-25 04:41:20,247 7120 INFO juleb_inv odoo.modules.loading: loading product/security/ir.model.access.csv 
+2023-10-25 04:41:20,275 7120 INFO juleb_inv odoo.modules.loading: loading product/wizard/product_label_layout_views.xml 
+2023-10-25 04:41:20,291 7120 INFO juleb_inv odoo.modules.loading: loading product/views/product_views.xml 
+2023-10-25 04:41:20,393 7120 INFO juleb_inv odoo.modules.loading: loading product/views/res_config_settings_views.xml 
+2023-10-25 04:41:20,428 7120 INFO juleb_inv odoo.modules.loading: loading product/views/product_attribute_views.xml 
+2023-10-25 04:41:20,476 7120 INFO juleb_inv odoo.modules.loading: loading product/views/product_category_views.xml 
+2023-10-25 04:41:20,492 7120 INFO juleb_inv odoo.modules.loading: loading product/views/product_packaging_views.xml 
+2023-10-25 04:41:20,526 7120 INFO juleb_inv odoo.modules.loading: loading product/views/product_pricelist_item_views.xml 
+2023-10-25 04:41:20,574 7120 INFO juleb_inv odoo.modules.loading: loading product/views/product_pricelist_views.xml 
+2023-10-25 04:41:20,609 7120 INFO juleb_inv odoo.modules.loading: loading product/views/product_supplierinfo_views.xml 
+2023-10-25 04:41:20,642 7120 INFO juleb_inv odoo.modules.loading: loading product/views/product_template_views.xml 
+2023-10-25 04:41:20,694 7120 INFO juleb_inv odoo.modules.loading: loading product/views/product_tag_views.xml 
+2023-10-25 04:41:20,711 7120 INFO juleb_inv odoo.modules.loading: loading product/views/res_country_group_views.xml 
+2023-10-25 04:41:20,726 7120 INFO juleb_inv odoo.modules.loading: loading product/views/res_partner_views.xml 
+2023-10-25 04:41:20,742 7120 INFO juleb_inv odoo.modules.loading: loading product/report/product_reports.xml 
+2023-10-25 04:41:20,764 7120 INFO juleb_inv odoo.modules.loading: loading product/report/product_product_templates.xml 
+2023-10-25 04:41:20,792 7120 INFO juleb_inv odoo.modules.loading: loading product/report/product_template_templates.xml 
+2023-10-25 04:41:20,792 7120 INFO juleb_inv odoo.modules.loading: loading product/report/product_packaging.xml 
+2023-10-25 04:41:20,809 7120 INFO juleb_inv odoo.modules.loading: loading product/report/product_pricelist_report_templates.xml 
+2023-10-25 04:41:20,860 7120 INFO juleb_inv odoo.modules.loading: Module product loaded in 4.79s, 1419 queries (+1419 other) 
+2023-10-25 04:41:20,860 7120 INFO juleb_inv odoo.modules.loading: Loading module web_unsplash (26/34) 
+2023-10-25 04:41:20,937 7120 INFO juleb_inv odoo.modules.registry: module web_unsplash: creating or updating database tables 
+2023-10-25 04:41:21,090 7120 INFO juleb_inv odoo.modules.loading: loading web_unsplash/views/res_config_settings_view.xml 
+2023-10-25 04:41:21,138 7120 INFO juleb_inv odoo.modules.loading: Module web_unsplash loaded in 0.28s, 95 queries (+95 other) 
+2023-10-25 04:41:21,138 7120 INFO juleb_inv odoo.modules.loading: Loading module partner_autocomplete (27/34) 
+2023-10-25 04:41:21,207 7120 INFO juleb_inv odoo.modules.registry: module partner_autocomplete: creating or updating database tables 
+2023-10-25 04:41:21,427 7120 INFO juleb_inv odoo.modules.loading: loading partner_autocomplete/security/ir.model.access.csv 
+2023-10-25 04:41:21,445 7120 INFO juleb_inv odoo.modules.loading: loading partner_autocomplete/views/res_partner_views.xml 
+2023-10-25 04:41:21,474 7120 INFO juleb_inv odoo.modules.loading: loading partner_autocomplete/views/res_company_views.xml 
+2023-10-25 04:41:21,486 7120 INFO juleb_inv odoo.modules.loading: loading partner_autocomplete/views/res_config_settings_views.xml 
+2023-10-25 04:41:21,503 7120 INFO juleb_inv odoo.modules.loading: loading partner_autocomplete/data/cron.xml 
+2023-10-25 04:41:21,526 7120 INFO juleb_inv odoo.modules.loading: Module partner_autocomplete loaded in 0.39s, 174 queries (+174 other) 
+2023-10-25 04:41:21,526 7120 INFO juleb_inv odoo.modules.loading: Loading module portal (28/34) 
+2023-10-25 04:41:21,611 7120 INFO juleb_inv odoo.modules.registry: module portal: creating or updating database tables 
+2023-10-25 04:41:22,211 7120 INFO juleb_inv odoo.modules.loading: loading portal/security/ir.model.access.csv 
+2023-10-25 04:41:22,212 7120 INFO juleb_inv odoo.modules.loading: loading portal/data/mail_template_data.xml 
+2023-10-25 04:41:22,231 7120 INFO juleb_inv odoo.modules.loading: loading portal/data/mail_templates.xml 
+2023-10-25 04:41:22,238 7120 INFO juleb_inv odoo.modules.loading: loading portal/views/portal_templates.xml 
+2023-10-25 04:41:22,362 7120 INFO juleb_inv odoo.modules.loading: loading portal/views/res_config_settings_views.xml 
+2023-10-25 04:41:22,379 7120 INFO juleb_inv odoo.modules.loading: loading portal/wizard/portal_share_views.xml 
+2023-10-25 04:41:22,396 7120 INFO juleb_inv odoo.modules.loading: loading portal/wizard/portal_wizard_views.xml 
+2023-10-25 04:41:22,447 7120 INFO juleb_inv odoo.modules.loading: Module portal loaded in 0.92s, 453 queries (+453 other) 
+2023-10-25 04:41:22,447 7120 INFO juleb_inv odoo.modules.loading: Loading module sms (29/34) 
+2023-10-25 04:41:22,550 7120 INFO juleb_inv odoo.modules.registry: module sms: creating or updating database tables 
+2023-10-25 04:41:22,558 7120 INFO juleb_inv odoo.models: Prepare computation of ir.actions.server.sms_template_id 
+2023-10-25 04:41:22,558 7120 INFO juleb_inv odoo.models: Prepare computation of ir.actions.server.sms_method 
+2023-10-25 04:41:22,595 7120 INFO juleb_inv odoo.models: Prepare computation of res.partner.phone_sanitized 
+2023-10-25 04:41:23,722 7120 INFO juleb_inv odoo.modules.loading: loading sms/data/ir_cron_data.xml 
+2023-10-25 04:41:23,731 7120 INFO juleb_inv odoo.modules.loading: loading sms/wizard/sms_composer_views.xml 
+2023-10-25 04:41:23,748 7120 INFO juleb_inv odoo.modules.loading: loading sms/wizard/sms_template_preview_views.xml 
+2023-10-25 04:41:23,765 7120 INFO juleb_inv odoo.modules.loading: loading sms/wizard/sms_resend_views.xml 
+2023-10-25 04:41:23,775 7120 INFO juleb_inv odoo.modules.loading: loading sms/wizard/sms_template_reset_views.xml 
+2023-10-25 04:41:23,784 7120 INFO juleb_inv odoo.modules.loading: loading sms/views/ir_actions_server_views.xml 
+2023-10-25 04:41:23,794 7120 INFO juleb_inv odoo.modules.loading: loading sms/views/mail_notification_views.xml 
+2023-10-25 04:41:23,797 7120 INFO juleb_inv odoo.modules.loading: loading sms/views/res_config_settings_views.xml 
+2023-10-25 04:41:23,831 7120 INFO juleb_inv odoo.modules.loading: loading sms/views/res_partner_views.xml 
+2023-10-25 04:41:23,882 7120 INFO juleb_inv odoo.modules.loading: loading sms/views/sms_sms_views.xml 
+2023-10-25 04:41:23,919 7120 INFO juleb_inv odoo.modules.loading: loading sms/views/sms_template_views.xml 
+2023-10-25 04:41:23,945 7120 INFO juleb_inv odoo.modules.loading: loading sms/security/ir.model.access.csv 
+2023-10-25 04:41:23,964 7120 INFO juleb_inv odoo.modules.loading: loading sms/security/sms_security.xml 
+2023-10-25 04:41:23,993 7120 INFO juleb_inv odoo.modules.loading: Module sms loaded in 1.55s, 613 queries (+613 other) 
+2023-10-25 04:41:23,993 7120 INFO juleb_inv odoo.modules.loading: Loading module snailmail (30/34) 
+2023-10-25 04:41:24,127 7120 INFO juleb_inv odoo.modules.registry: module snailmail: creating or updating database tables 
+2023-10-25 04:41:25,049 7120 INFO juleb_inv odoo.modules.loading: loading snailmail/data/snailmail_data.xml 
+2023-10-25 04:41:25,067 7120 INFO juleb_inv odoo.modules.loading: loading snailmail/views/report_assets.xml 
+2023-10-25 04:41:25,086 7120 INFO juleb_inv odoo.modules.loading: loading snailmail/views/snailmail_views.xml 
+2023-10-25 04:41:25,110 7120 INFO juleb_inv odoo.modules.loading: loading snailmail/wizard/snailmail_confirm_views.xml 
+2023-10-25 04:41:25,117 7120 INFO juleb_inv odoo.modules.loading: loading snailmail/wizard/snailmail_letter_format_error_views.xml 
+2023-10-25 04:41:25,126 7120 INFO juleb_inv odoo.modules.loading: loading snailmail/wizard/snailmail_letter_missing_required_fields_views.xml 
+2023-10-25 04:41:25,133 7120 INFO juleb_inv odoo.modules.loading: loading snailmail/security/ir.model.access.csv 
+2023-10-25 04:41:25,167 7120 INFO juleb_inv odoo.modules.loading: Module snailmail loaded in 1.17s, 389 queries (+389 other) 
+2023-10-25 04:41:25,167 7120 INFO juleb_inv odoo.modules.loading: Loading module auth_totp_portal (31/34) 
+2023-10-25 04:41:25,217 7120 INFO juleb_inv odoo.modules.registry: module auth_totp_portal: creating or updating database tables 
+2023-10-25 04:41:25,264 7120 INFO juleb_inv odoo.modules.loading: loading auth_totp_portal/security/security.xml 
+2023-10-25 04:41:25,283 7120 INFO juleb_inv odoo.modules.loading: loading auth_totp_portal/views/templates.xml 
+2023-10-25 04:41:25,314 7120 INFO juleb_inv odoo.modules.loading: Module auth_totp_portal loaded in 0.15s, 68 queries (+68 other) 
+2023-10-25 04:41:25,315 7120 INFO juleb_inv odoo.modules.loading: Loading module digest (32/34) 
+2023-10-25 04:41:25,383 7120 INFO juleb_inv odoo.modules.registry: module digest: creating or updating database tables 
+2023-10-25 04:41:25,684 7120 INFO juleb_inv odoo.modules.loading: loading digest/security/ir.model.access.csv 
+2023-10-25 04:41:25,701 7120 INFO juleb_inv odoo.modules.loading: loading digest/data/digest_data.xml 
+2023-10-25 04:41:25,718 7120 INFO juleb_inv odoo.modules.loading: loading digest/data/digest_tips_data.xml 
+2023-10-25 04:41:25,751 7120 INFO juleb_inv odoo.modules.loading: loading digest/data/ir_cron_data.xml 
+2023-10-25 04:41:25,751 7120 INFO juleb_inv odoo.modules.loading: loading digest/data/res_config_settings_data.xml 
+2023-10-25 04:41:25,768 7120 INFO juleb_inv odoo.modules.loading: loading digest/views/digest_views.xml 
+2023-10-25 04:41:25,818 7120 INFO juleb_inv odoo.modules.loading: loading digest/views/digest_templates.xml 
+2023-10-25 04:41:25,834 7120 INFO juleb_inv odoo.modules.loading: loading digest/views/res_config_settings_views.xml 
+2023-10-25 04:41:25,867 7120 INFO juleb_inv odoo.modules.loading: Module digest loaded in 0.55s, 295 queries (+295 other) 
+2023-10-25 04:41:25,867 7120 INFO juleb_inv odoo.modules.loading: Loading module stock (33/34) 
+2023-10-25 04:41:26,005 7120 INFO juleb_inv odoo.modules.registry: module stock: creating or updating database tables 
+2023-10-25 04:41:35,183 7120 INFO juleb_inv odoo.modules.loading: loading stock/security/stock_security.xml 
+2023-10-25 04:41:35,599 7120 INFO juleb_inv odoo.modules.loading: loading stock/security/ir.model.access.csv 
+2023-10-25 04:41:35,678 7120 INFO juleb_inv odoo.modules.loading: loading stock/data/digest_data.xml 
+2023-10-25 04:41:35,685 7120 INFO juleb_inv odoo.modules.loading: loading stock/data/mail_templates.xml 
+2023-10-25 04:41:35,694 7120 INFO juleb_inv odoo.modules.loading: loading stock/data/default_barcode_patterns.xml 
+2023-10-25 04:41:35,700 7120 INFO juleb_inv odoo.modules.loading: loading stock/data/stock_data.xml 
+2023-10-25 04:41:35,983 7120 INFO juleb_inv odoo.modules.loading: loading stock/data/stock_sequence_data.xml 
+2023-10-25 04:41:36,001 7120 INFO juleb_inv odoo.modules.loading: loading stock/data/stock_traceability_report_data.xml 
+2023-10-25 04:41:36,018 7120 INFO juleb_inv odoo.modules.loading: loading stock/report/report_stock_forecasted.xml 
+2023-10-25 04:41:36,034 7120 INFO juleb_inv odoo.modules.loading: loading stock/report/report_stock_quantity.xml 
+2023-10-25 04:41:36,034 7120 INFO juleb_inv odoo.modules.loading: loading stock/report/report_stock_reception.xml 
+2023-10-25 04:41:36,068 7120 INFO juleb_inv odoo.modules.loading: loading stock/report/stock_report_views.xml 
+2023-10-25 04:41:36,114 7120 INFO juleb_inv odoo.modules.loading: loading stock/report/report_package_barcode.xml 
+2023-10-25 04:41:36,133 7120 INFO juleb_inv odoo.modules.loading: loading stock/report/report_lot_barcode.xml 
+2023-10-25 04:41:36,139 7120 INFO juleb_inv odoo.modules.loading: loading stock/report/report_location_barcode.xml 
+2023-10-25 04:41:36,147 7120 INFO juleb_inv odoo.modules.loading: loading stock/report/report_stockpicking_operations.xml 
+2023-10-25 04:41:36,163 7120 INFO juleb_inv odoo.modules.loading: loading stock/report/report_deliveryslip.xml 
+2023-10-25 04:41:36,184 7120 INFO juleb_inv odoo.modules.loading: loading stock/report/report_stockinventory.xml 
+2023-10-25 04:41:36,200 7120 INFO juleb_inv odoo.modules.loading: loading stock/report/report_stock_rule.xml 
+2023-10-25 04:41:36,234 7120 INFO juleb_inv odoo.modules.loading: loading stock/report/package_templates.xml 
+2023-10-25 04:41:36,235 7120 INFO juleb_inv odoo.modules.loading: loading stock/report/picking_templates.xml 
+2023-10-25 04:41:36,251 7120 INFO juleb_inv odoo.modules.loading: loading stock/report/product_templates.xml 
+2023-10-25 04:41:36,268 7120 INFO juleb_inv odoo.modules.loading: loading stock/report/product_packaging.xml 
+2023-10-25 04:41:36,268 7120 INFO juleb_inv odoo.modules.loading: loading stock/data/mail_template_data.xml 
+2023-10-25 04:41:36,289 7120 INFO juleb_inv odoo.modules.loading: loading stock/views/stock_menu_views.xml 
+2023-10-25 04:41:36,352 7120 INFO juleb_inv odoo.modules.loading: loading stock/wizard/stock_assign_serial_views.xml 
+2023-10-25 04:41:36,360 7120 INFO juleb_inv odoo.modules.loading: loading stock/wizard/stock_change_product_qty_views.xml 
+2023-10-25 04:41:36,367 7120 INFO juleb_inv odoo.modules.loading: loading stock/wizard/stock_picking_return_views.xml 
+2023-10-25 04:41:36,367 7120 INFO juleb_inv odoo.modules.loading: loading stock/wizard/stock_scheduler_compute_views.xml 
+2023-10-25 04:41:36,394 7120 INFO juleb_inv odoo.modules.loading: loading stock/wizard/stock_immediate_transfer_views.xml 
+2023-10-25 04:41:36,402 7120 INFO juleb_inv odoo.modules.loading: loading stock/wizard/stock_inventory_conflict.xml 
+2023-10-25 04:41:36,414 7120 INFO juleb_inv odoo.modules.loading: loading stock/wizard/stock_backorder_confirmation_views.xml 
+2023-10-25 04:41:36,418 7120 INFO juleb_inv odoo.modules.loading: loading stock/wizard/stock_quantity_history.xml 
+2023-10-25 04:41:36,418 7120 INFO juleb_inv odoo.modules.loading: loading stock/wizard/stock_request_count.xml 
+2023-10-25 04:41:36,435 7120 INFO juleb_inv odoo.modules.loading: loading stock/wizard/stock_replenishment_info.xml 
+2023-10-25 04:41:36,467 7120 INFO juleb_inv odoo.modules.loading: loading stock/wizard/stock_rules_report_views.xml 
+2023-10-25 04:41:36,471 7120 INFO juleb_inv odoo.modules.loading: loading stock/wizard/stock_warn_insufficient_qty_views.xml 
+2023-10-25 04:41:36,494 7120 INFO juleb_inv odoo.modules.loading: loading stock/wizard/product_replenish_views.xml 
+2023-10-25 04:41:36,504 7120 INFO juleb_inv odoo.modules.loading: loading stock/wizard/product_label_layout_views.xml 
+2023-10-25 04:41:36,511 7120 INFO juleb_inv odoo.modules.loading: loading stock/wizard/stock_track_confirmation_views.xml 
+2023-10-25 04:41:36,517 7120 INFO juleb_inv odoo.modules.loading: loading stock/wizard/stock_orderpoint_snooze_views.xml 
+2023-10-25 04:41:36,518 7120 INFO juleb_inv odoo.modules.loading: loading stock/wizard/stock_package_destination_views.xml 
+2023-10-25 04:41:36,535 7120 INFO juleb_inv odoo.modules.loading: loading stock/wizard/stock_inventory_adjustment_name.xml 
+2023-10-25 04:41:36,535 7120 INFO juleb_inv odoo.modules.loading: loading stock/wizard/stock_inventory_warning.xml 
+2023-10-25 04:41:36,552 7120 INFO juleb_inv odoo.modules.loading: loading stock/wizard/stock_label_type.xml 
+2023-10-25 04:41:36,568 7120 INFO juleb_inv odoo.modules.loading: loading stock/wizard/stock_lot_label_layout.xml 
+2023-10-25 04:41:36,568 7120 INFO juleb_inv odoo.modules.loading: loading stock/views/res_partner_views.xml 
+2023-10-25 04:41:36,611 7120 INFO juleb_inv odoo.modules.loading: loading stock/views/product_strategy_views.xml 
+2023-10-25 04:41:36,643 7120 INFO juleb_inv odoo.modules.loading: loading stock/views/stock_lot_views.xml 
+2023-10-25 04:41:36,668 7120 INFO juleb_inv odoo.modules.loading: loading stock/views/stock_scrap_views.xml 
+2023-10-25 04:41:36,728 7120 INFO juleb_inv odoo.modules.loading: loading stock/views/stock_quant_views.xml 
+2023-10-25 04:41:37,419 7120 INFO juleb_inv odoo.modules.loading: loading stock/views/stock_warehouse_views.xml 
+2023-10-25 04:41:37,454 7120 INFO juleb_inv odoo.modules.loading: loading stock/views/stock_move_line_views.xml 
+2023-10-25 04:41:37,513 7120 INFO juleb_inv odoo.modules.loading: loading stock/views/stock_picking_views.xml 
+2023-10-25 04:41:37,636 7120 INFO juleb_inv odoo.modules.loading: loading stock/views/stock_picking_type_views.xml 
+2023-10-25 04:41:37,688 7120 INFO juleb_inv odoo.modules.loading: loading stock/views/stock_move_views.xml 
+2023-10-25 04:41:37,821 7120 INFO juleb_inv odoo.modules.loading: loading stock/views/product_views.xml 
+2023-10-25 04:41:38,030 7120 INFO juleb_inv odoo.modules.loading: loading stock/views/stock_location_views.xml 
+2023-10-25 04:41:38,105 7120 INFO juleb_inv odoo.modules.loading: loading stock/views/stock_orderpoint_views.xml 
+2023-10-25 04:41:38,188 7120 INFO juleb_inv odoo.modules.loading: loading stock/views/stock_storage_category_views.xml 
+2023-10-25 04:41:38,204 7120 INFO juleb_inv odoo.modules.loading: loading stock/views/res_config_settings_views.xml 
+2023-10-25 04:41:38,266 7120 INFO juleb_inv odoo.modules.loading: loading stock/views/report_stock_traceability.xml 
+2023-10-25 04:41:38,288 7120 INFO juleb_inv odoo.modules.loading: loading stock/views/stock_template.xml 
+2023-10-25 04:41:38,303 7120 INFO juleb_inv odoo.modules.loading: loading stock/views/stock_rule_views.xml 
+2023-10-25 04:41:38,357 7120 INFO juleb_inv odoo.modules.loading: loading stock/views/stock_package_level_views.xml 
+2023-10-25 04:41:38,371 7120 INFO juleb_inv odoo.modules.loading: loading stock/views/stock_package_type_view.xml 
+2023-10-25 04:41:38,412 7120 INFO juleb_inv odoo.modules.loading: loading stock/views/stock_forecasted.xml 
+2023-10-25 04:41:38,509 7120 INFO juleb_inv odoo.modules.loading: Module stock loaded in 12.64s, 5195 queries (+5195 other) 
+2023-10-25 04:41:38,509 7120 INFO juleb_inv odoo.modules.loading: Loading module stock_sms (34/34) 
+2023-10-25 04:41:38,589 7120 INFO juleb_inv odoo.modules.registry: module stock_sms: creating or updating database tables 
+2023-10-25 04:41:38,856 7120 INFO juleb_inv odoo.modules.loading: loading stock_sms/data/sms_data.xml 
+2023-10-25 04:41:38,873 7120 INFO juleb_inv odoo.modules.loading: loading stock_sms/views/res_config_settings_views.xml 
+2023-10-25 04:41:38,922 7120 INFO juleb_inv odoo.modules.loading: loading stock_sms/wizard/confirm_stock_sms_views.xml 
+2023-10-25 04:41:38,939 7120 INFO juleb_inv odoo.modules.loading: loading stock_sms/security/ir.model.access.csv 
+2023-10-25 04:41:38,939 7120 INFO juleb_inv odoo.modules.loading: loading stock_sms/security/sms_security.xml 
+2023-10-25 04:41:39,006 7120 INFO juleb_inv odoo.modules.loading: Module stock_sms loaded in 0.50s, 176 queries (+176 other) 
+2023-10-25 04:41:39,006 7120 INFO juleb_inv odoo.modules.loading: 34 modules loaded in 35.69s, 14859 queries (+14859 extra) 
+2023-10-25 04:41:39,006 7120 INFO juleb_inv odoo.modules.loading: loading 51 modules... 
+2023-10-25 04:41:39,006 7120 INFO juleb_inv odoo.modules.loading: Loading module social_media (2/51) 
+2023-10-25 04:41:39,078 7120 INFO juleb_inv odoo.modules.registry: module social_media: creating or updating database tables 
+2023-10-25 04:41:39,139 7120 INFO juleb_inv odoo.modules.loading: loading social_media/views/res_company_views.xml 
+2023-10-25 04:41:39,173 7120 INFO juleb_inv odoo.modules.loading: Module social_media loaded in 0.17s, 68 queries (+68 other) 
+2023-10-25 04:41:39,173 7120 INFO juleb_inv odoo.modules.loading: Loading module utm (12/51) 
+2023-10-25 04:41:39,255 7120 INFO juleb_inv odoo.modules.registry: module utm: creating or updating database tables 
+2023-10-25 04:41:40,039 7120 INFO juleb_inv odoo.modules.loading: loading utm/data/utm_medium_data.xml 
+2023-10-25 04:41:40,058 7120 INFO juleb_inv odoo.modules.loading: loading utm/data/utm_source_data.xml 
+2023-10-25 04:41:40,086 7120 INFO juleb_inv odoo.modules.loading: loading utm/data/utm_stage_data.xml 
+2023-10-25 04:41:40,093 7120 INFO juleb_inv odoo.modules.loading: loading utm/data/utm_tag_data.xml 
+2023-10-25 04:41:40,099 7120 INFO juleb_inv odoo.modules.loading: loading utm/views/utm_campaign_views.xml 
+2023-10-25 04:41:40,124 7120 INFO juleb_inv odoo.modules.loading: loading utm/views/utm_medium_views.xml 
+2023-10-25 04:41:40,141 7120 INFO juleb_inv odoo.modules.loading: loading utm/views/utm_source_views.xml 
+2023-10-25 04:41:40,158 7120 INFO juleb_inv odoo.modules.loading: loading utm/views/utm_stage_views.xml 
+2023-10-25 04:41:40,191 7120 INFO juleb_inv odoo.modules.loading: loading utm/views/utm_tag_views.xml 
+2023-10-25 04:41:40,191 7120 INFO juleb_inv odoo.modules.loading: loading utm/views/utm_menus.xml 
+2023-10-25 04:41:40,243 7120 INFO juleb_inv odoo.modules.loading: loading utm/security/ir.model.access.csv 
+2023-10-25 04:41:40,273 7120 INFO juleb_inv odoo.modules.loading: Module utm loaded in 1.10s, 405 queries (+405 other) 
+2023-10-25 04:41:40,273 7120 INFO juleb_inv odoo.modules.loading: Loading module analytic (19/51) 
+2023-10-25 04:41:40,391 7120 INFO juleb_inv odoo.modules.registry: module analytic: creating or updating database tables 
+2023-10-25 04:41:41,277 7120 INFO juleb_inv odoo.modules.loading: loading analytic/security/analytic_security.xml 
+2023-10-25 04:41:41,329 7120 INFO juleb_inv odoo.modules.loading: loading analytic/security/ir.model.access.csv 
+2023-10-25 04:41:41,349 7120 INFO juleb_inv odoo.modules.loading: loading analytic/views/analytic_line_views.xml 
+2023-10-25 04:41:41,410 7120 INFO juleb_inv odoo.modules.loading: loading analytic/views/analytic_account_views.xml 
+2023-10-25 04:41:41,460 7120 INFO juleb_inv odoo.modules.loading: loading analytic/views/analytic_plan_views.xml 
+2023-10-25 04:41:41,478 7120 INFO juleb_inv odoo.modules.loading: loading analytic/views/analytic_distribution_model_views.xml 
+2023-10-25 04:41:41,496 7120 INFO juleb_inv odoo.modules.loading: loading analytic/data/analytic_data.xml 
+2023-10-25 04:41:41,527 7120 INFO juleb_inv odoo.modules.loading: Module analytic loaded in 1.25s, 391 queries (+391 other) 
+2023-10-25 04:41:41,527 7120 INFO juleb_inv odoo.modules.loading: Loading module contacts (23/51) 
+2023-10-25 04:41:41,594 7120 INFO juleb_inv odoo.modules.registry: module contacts: creating or updating database tables 
+2023-10-25 04:41:41,627 7120 INFO juleb_inv odoo.modules.loading: loading contacts/views/contact_views.xml 
+2023-10-25 04:41:41,755 7120 INFO juleb_inv odoo.modules.loading: Module contacts loaded in 0.23s, 217 queries (+217 other) 
+2023-10-25 04:41:41,755 7120 INFO juleb_inv odoo.modules.loading: Loading module gamification (24/51) 
+2023-10-25 04:41:41,880 7120 INFO juleb_inv odoo.modules.registry: module gamification: creating or updating database tables 
+2023-10-25 04:41:43,452 7120 INFO juleb_inv odoo.modules.loading: loading gamification/wizard/update_goal.xml 
+2023-10-25 04:41:43,465 7120 INFO juleb_inv odoo.modules.loading: loading gamification/wizard/grant_badge.xml 
+2023-10-25 04:41:43,475 7120 INFO juleb_inv odoo.modules.loading: loading gamification/views/res_users_views.xml 
+2023-10-25 04:41:43,492 7120 INFO juleb_inv odoo.modules.loading: loading gamification/views/gamification_karma_rank_views.xml 
+2023-10-25 04:41:43,513 7120 INFO juleb_inv odoo.modules.loading: loading gamification/views/gamification_karma_tracking_views.xml 
+2023-10-25 04:41:43,530 7120 INFO juleb_inv odoo.modules.loading: loading gamification/views/gamification_badge_views.xml 
+2023-10-25 04:41:43,563 7120 INFO juleb_inv odoo.modules.loading: loading gamification/views/gamification_badge_user_views.xml 
+2023-10-25 04:41:43,580 7120 INFO juleb_inv odoo.modules.loading: loading gamification/views/gamification_goal_views.xml 
+2023-10-25 04:41:43,615 7120 INFO juleb_inv odoo.modules.loading: loading gamification/views/gamification_goal_definition_views.xml 
+2023-10-25 04:41:43,650 7120 INFO juleb_inv odoo.modules.loading: loading gamification/views/gamification_challenge_views.xml 
+2023-10-25 04:41:43,699 7120 INFO juleb_inv odoo.modules.loading: loading gamification/views/gamification_challenge_line_views.xml 
+2023-10-25 04:41:43,706 7120 INFO juleb_inv odoo.modules.loading: loading gamification/views/gamification_menus.xml 
+2023-10-25 04:41:43,742 7120 INFO juleb_inv odoo.modules.loading: loading gamification/security/gamification_security.xml 
+2023-10-25 04:41:43,760 7120 INFO juleb_inv odoo.modules.loading: loading gamification/security/ir.model.access.csv 
+2023-10-25 04:41:43,780 7120 INFO juleb_inv odoo.modules.loading: loading gamification/data/ir_cron_data.xml 
+2023-10-25 04:41:43,803 7120 INFO juleb_inv odoo.modules.loading: loading gamification/data/mail_template_data.xml 
+2023-10-25 04:41:43,823 7120 INFO juleb_inv odoo.modules.loading: loading gamification/data/gamification_badge_data.xml 
+2023-10-25 04:41:43,900 7120 INFO juleb_inv odoo.modules.loading: loading gamification/data/gamification_challenge_data.xml 
+2023-10-25 04:41:43,948 7120 INFO juleb_inv odoo.modules.loading: loading gamification/data/gamification_karma_rank_data.xml 
+2023-10-25 04:41:44,348 7120 INFO juleb_inv odoo.modules.loading: Module gamification loaded in 2.59s, 937 queries (+937 other) 
+2023-10-25 04:41:44,348 7120 INFO juleb_inv odoo.modules.loading: Loading module hr (26/51) 
+2023-10-25 04:41:44,531 7120 INFO juleb_inv odoo.modules.registry: module hr: creating or updating database tables 
+2023-10-25 04:41:48,738 7120 INFO juleb_inv odoo.modules.loading: loading hr/security/hr_security.xml 
+2023-10-25 04:41:48,889 7120 INFO juleb_inv odoo.modules.loading: loading hr/security/ir.model.access.csv 
+2023-10-25 04:41:48,924 7120 INFO juleb_inv odoo.modules.loading: loading hr/wizard/hr_plan_wizard_views.xml 
+2023-10-25 04:41:48,938 7120 INFO juleb_inv odoo.modules.loading: loading hr/wizard/hr_departure_wizard_views.xml 
+2023-10-25 04:41:48,947 7120 INFO juleb_inv odoo.modules.loading: loading hr/views/hr_departure_reason_views.xml 
+2023-10-25 04:41:48,955 7120 INFO juleb_inv odoo.modules.loading: loading hr/views/hr_contract_type_views.xml 
+2023-10-25 04:41:48,972 7120 INFO juleb_inv odoo.modules.loading: loading hr/views/hr_job_views.xml 
+2023-10-25 04:41:49,005 7120 INFO juleb_inv odoo.modules.loading: loading hr/views/hr_plan_views.xml 
+2023-10-25 04:41:49,054 7120 INFO juleb_inv odoo.modules.loading: loading hr/views/hr_employee_category_views.xml 
+2023-10-25 04:41:49,065 7120 INFO juleb_inv odoo.modules.loading: loading hr/views/hr_employee_public_views.xml 
+2023-10-25 04:41:49,089 7120 INFO juleb_inv odoo.modules.loading: loading hr/report/hr_employee_badge.xml 
+2023-10-25 04:41:49,111 7120 INFO juleb_inv odoo.modules.loading: loading hr/views/hr_employee_views.xml 
+2023-10-25 04:41:49,195 7120 INFO juleb_inv odoo.modules.loading: loading hr/views/hr_department_views.xml 
+2023-10-25 04:41:49,231 7120 INFO juleb_inv odoo.modules.loading: loading hr/views/hr_work_location_views.xml 
+2023-10-25 04:41:49,239 7120 INFO juleb_inv odoo.modules.loading: loading hr/views/hr_views.xml 
+2023-10-25 04:41:49,540 7120 INFO juleb_inv odoo.modules.loading: loading hr/views/res_config_settings_views.xml 
+2023-10-25 04:41:49,590 7120 INFO juleb_inv odoo.modules.loading: loading hr/views/mail_channel_views.xml 
+2023-10-25 04:41:49,590 7120 INFO juleb_inv odoo.modules.loading: loading hr/views/res_users.xml 
+2023-10-25 04:41:49,685 7120 INFO juleb_inv odoo.modules.loading: loading hr/views/res_partner_views.xml 
+2023-10-25 04:41:49,703 7120 INFO juleb_inv odoo.modules.loading: loading hr/data/hr_data.xml 
+2023-10-25 04:41:49,874 7120 INFO juleb_inv odoo.modules.loading: Module hr loaded in 5.53s, 3143 queries (+3143 other) 
+2023-10-25 04:41:49,874 7120 INFO juleb_inv odoo.modules.loading: Loading module link_tracker (28/51) 
+2023-10-25 04:41:49,956 7120 INFO juleb_inv odoo.modules.registry: module link_tracker: creating or updating database tables 
+2023-10-25 04:41:50,391 7120 INFO juleb_inv odoo.modules.loading: loading link_tracker/views/link_tracker_views.xml 
+2023-10-25 04:41:50,463 7120 INFO juleb_inv odoo.modules.loading: loading link_tracker/views/utm_campaign_views.xml 
+2023-10-25 04:41:50,482 7120 INFO juleb_inv odoo.modules.loading: loading link_tracker/security/ir.model.access.csv 
+2023-10-25 04:41:50,514 7120 INFO juleb_inv odoo.modules.loading: Module link_tracker loaded in 0.64s, 249 queries (+249 other) 
+2023-10-25 04:41:50,515 7120 INFO juleb_inv odoo.modules.loading: Loading module rating (33/51) 
+2023-10-25 04:41:50,638 7120 INFO juleb_inv odoo.modules.registry: module rating: creating or updating database tables 
+2023-10-25 04:41:51,442 7120 INFO juleb_inv odoo.modules.loading: loading rating/views/rating_rating_views.xml 
+2023-10-25 04:41:51,509 7120 INFO juleb_inv odoo.modules.loading: loading rating/views/rating_templates.xml 
+2023-10-25 04:41:51,526 7120 INFO juleb_inv odoo.modules.loading: loading rating/views/mail_message_views.xml 
+2023-10-25 04:41:51,543 7120 INFO juleb_inv odoo.modules.loading: loading rating/security/ir.model.access.csv 
+2023-10-25 04:41:51,560 7120 INFO juleb_inv odoo.modules.loading: Module rating loaded in 1.04s, 402 queries (+402 other) 
+2023-10-25 04:41:51,560 7120 INFO juleb_inv odoo.modules.loading: Loading module hr_gamification (35/51) 
+2023-10-25 04:41:51,665 7120 INFO juleb_inv odoo.modules.registry: module hr_gamification: creating or updating database tables 
+2023-10-25 04:41:51,835 7120 INFO juleb_inv odoo.modules.loading: loading hr_gamification/security/gamification_security.xml 
+2023-10-25 04:41:51,843 7120 INFO juleb_inv odoo.modules.loading: loading hr_gamification/security/ir.model.access.csv 
+2023-10-25 04:41:51,843 7120 INFO juleb_inv odoo.modules.loading: loading hr_gamification/wizard/gamification_badge_user_wizard_views.xml 
+2023-10-25 04:41:51,873 7120 INFO juleb_inv odoo.modules.loading: loading hr_gamification/views/gamification_views.xml 
+2023-10-25 04:41:51,928 7120 INFO juleb_inv odoo.modules.loading: loading hr_gamification/views/hr_employee_views.xml 
+2023-10-25 04:41:51,959 7120 INFO juleb_inv odoo.modules.loading: Module hr_gamification loaded in 0.40s, 252 queries (+252 other) 
+2023-10-25 04:41:51,959 7120 INFO juleb_inv odoo.modules.loading: Loading module hr_org_chart (36/51) 
+2023-10-25 04:41:52,044 7120 INFO juleb_inv odoo.modules.registry: module hr_org_chart: creating or updating database tables 
+2023-10-25 04:41:52,131 7120 INFO juleb_inv odoo.modules.loading: loading hr_org_chart/views/hr_views.xml 
+2023-10-25 04:41:52,194 7120 INFO juleb_inv odoo.modules.loading: Module hr_org_chart loaded in 0.23s, 89 queries (+89 other) 
+2023-10-25 04:41:52,194 7120 INFO juleb_inv odoo.modules.loading: Loading module mail_bot_hr (37/51) 
+2023-10-25 04:41:52,395 7120 INFO juleb_inv odoo.modules.loading: loading mail_bot_hr/views/res_users_views.xml 
+2023-10-25 04:41:52,482 7120 INFO juleb_inv odoo.modules.loading: Module mail_bot_hr loaded in 0.29s, 57 queries (+57 other) 
+2023-10-25 04:41:52,482 7120 INFO juleb_inv odoo.modules.loading: Loading module survey (42/51) 
+2023-10-25 04:41:52,632 7120 INFO juleb_inv odoo.modules.registry: module survey: creating or updating database tables 
+2023-10-25 04:41:53,384 7120 INFO juleb_inv odoo.models: Prepare computation of gamification.badge.survey_id 
+2023-10-25 04:41:54,400 7120 INFO juleb_inv odoo.modules.loading: loading survey/views/survey_report_templates.xml 
+2023-10-25 04:41:54,433 7120 INFO juleb_inv odoo.modules.loading: loading survey/views/survey_reports.xml 
+2023-10-25 04:41:54,441 7120 INFO juleb_inv odoo.modules.loading: loading survey/data/mail_template_data.xml 
+2023-10-25 04:41:54,450 7120 INFO juleb_inv odoo.modules.loading: loading survey/security/survey_security.xml 
+2023-10-25 04:41:54,642 7120 INFO juleb_inv odoo.modules.loading: loading survey/security/ir.model.access.csv 
+2023-10-25 04:41:54,663 7120 INFO juleb_inv odoo.modules.loading: loading survey/views/survey_menus.xml 
+2023-10-25 04:41:54,682 7120 INFO juleb_inv odoo.modules.loading: loading survey/views/survey_survey_views.xml 
+2023-10-25 04:41:54,749 7120 INFO juleb_inv odoo.modules.loading: loading survey/views/survey_user_views.xml 
+2023-10-25 04:41:54,812 7120 INFO juleb_inv odoo.modules.loading: loading survey/views/survey_question_views.xml 
+2023-10-25 04:41:54,882 7120 INFO juleb_inv odoo.modules.loading: loading survey/views/survey_templates.xml 
+2023-10-25 04:41:54,982 7120 INFO juleb_inv odoo.modules.loading: loading survey/views/survey_templates_management.xml 
+2023-10-25 04:41:55,032 7120 INFO juleb_inv odoo.modules.loading: loading survey/views/survey_templates_print.xml 
+2023-10-25 04:41:55,049 7120 INFO juleb_inv odoo.modules.loading: loading survey/views/survey_templates_statistics.xml 
+2023-10-25 04:41:55,117 7120 INFO juleb_inv odoo.modules.loading: loading survey/views/survey_templates_user_input_session.xml 
+2023-10-25 04:41:55,154 7120 INFO juleb_inv odoo.modules.loading: loading survey/views/gamification_badge_views.xml 
+2023-10-25 04:41:55,159 7120 INFO juleb_inv odoo.modules.loading: loading survey/wizard/survey_invite_views.xml 
+2023-10-25 04:41:55,165 7120 INFO juleb_inv odoo.modules.loading: loading survey/views/res_partner_views.xml 
+2023-10-25 04:41:55,215 7120 INFO juleb_inv odoo.modules.loading: Module survey loaded in 2.73s, 1221 queries (+1221 other) 
+2023-10-25 04:41:55,215 7120 INFO juleb_inv odoo.modules.loading: Loading module portal_rating (45/51) 
+2023-10-25 04:41:55,325 7120 INFO juleb_inv odoo.modules.registry: module portal_rating: creating or updating database tables 
+2023-10-25 04:41:55,416 7120 INFO juleb_inv odoo.modules.loading: loading portal_rating/views/rating_rating_views.xml 
+2023-10-25 04:41:55,433 7120 INFO juleb_inv odoo.modules.loading: loading portal_rating/views/portal_templates.xml 
+2023-10-25 04:41:55,450 7120 INFO juleb_inv odoo.modules.loading: loading portal_rating/views/rating_templates.xml 
+2023-10-25 04:41:55,476 7120 INFO juleb_inv odoo.modules.loading: Module portal_rating loaded in 0.26s, 102 queries (+102 other) 
+2023-10-25 04:41:55,476 7120 INFO juleb_inv odoo.modules.loading: Loading module mass_mailing (46/51) 
+2023-10-25 04:41:55,650 7120 INFO juleb_inv odoo.modules.registry: module mass_mailing: creating or updating database tables 
+2023-10-25 04:41:58,162 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/security/res_groups_data.xml 
+2023-10-25 04:41:58,332 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/security/ir.model.access.csv 
+2023-10-25 04:41:58,354 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/data/digest_data.xml 
+2023-10-25 04:41:58,371 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/data/ir_attachment_data.xml 
+2023-10-25 04:41:58,430 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/data/ir_config_parameter_data.xml 
+2023-10-25 04:41:58,433 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/data/ir_cron_data.xml 
+2023-10-25 04:41:58,451 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/data/ir_module_data.xml 
+2023-10-25 04:41:58,456 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/data/mailing_data_templates.xml 
+2023-10-25 04:41:58,470 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/data/mailing_list_data.xml 
+2023-10-25 04:41:58,504 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/data/res_users_data.xml 
+2023-10-25 04:41:58,554 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/wizard/mail_compose_message_views.xml 
+2023-10-25 04:41:58,576 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/wizard/mailing_contact_import_views.xml 
+2023-10-25 04:41:58,585 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/wizard/mailing_contact_to_list_views.xml 
+2023-10-25 04:41:58,587 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/wizard/mailing_list_merge_views.xml 
+2023-10-25 04:41:58,605 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/wizard/mailing_mailing_test_views.xml 
+2023-10-25 04:41:58,621 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/wizard/mailing_mailing_schedule_date_views.xml 
+2023-10-25 04:41:58,629 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/report/mailing_trace_report_views.xml 
+2023-10-25 04:41:58,657 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/views/mailing_filter_views.xml 
+2023-10-25 04:41:58,677 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/views/mailing_trace_views.xml 
+2023-10-25 04:41:58,704 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/views/link_tracker_views.xml 
+2023-10-25 04:41:58,754 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/views/mailing_contact_views.xml 
+2023-10-25 04:41:58,800 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/views/mailing_contact_subscription_views.xml 
+2023-10-25 04:41:58,821 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/views/mailing_list_views.xml 
+2023-10-25 04:41:58,858 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/views/mailing_mailing_views.xml 
+2023-10-25 04:41:58,981 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/views/res_config_settings_views.xml 
+2023-10-25 04:41:59,005 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/views/utm_campaign_views.xml 
+2023-10-25 04:41:59,045 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/views/mailing_menus.xml 
+2023-10-25 04:41:59,122 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/views/assets.xml 
+2023-10-25 04:41:59,138 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/views/mailing_templates_portal_layouts.xml 
+2023-10-25 04:41:59,139 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/views/mailing_templates_portal_management.xml 
+2023-10-25 04:41:59,155 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/views/mailing_templates_portal_unsubscribe.xml 
+2023-10-25 04:41:59,172 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/views/themes_templates.xml 
+2023-10-25 04:41:59,198 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/views/snippets_themes.xml 
+2023-10-25 04:41:59,301 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/views/snippets/s_alert.xml 
+2023-10-25 04:41:59,322 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/views/snippets/s_blockquote.xml 
+2023-10-25 04:41:59,322 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/views/snippets/s_call_to_action.xml 
+2023-10-25 04:41:59,339 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/views/snippets/s_coupon_code.xml 
+2023-10-25 04:41:59,345 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/views/snippets/s_cover.xml 
+2023-10-25 04:41:59,350 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/views/snippets/s_color_blocks_2.xml 
+2023-10-25 04:41:59,355 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/views/snippets/s_company_team.xml 
+2023-10-25 04:41:59,355 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/views/snippets/s_comparisons.xml 
+2023-10-25 04:41:59,373 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/views/snippets/s_event.xml 
+2023-10-25 04:41:59,373 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/views/snippets/s_features.xml 
+2023-10-25 04:41:59,390 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/views/snippets/s_features_grid.xml 
+2023-10-25 04:41:59,398 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/views/snippets/s_hr.xml 
+2023-10-25 04:41:59,418 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/views/snippets/s_image_text.xml 
+2023-10-25 04:41:59,423 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/views/snippets/s_masonry_block.xml 
+2023-10-25 04:41:59,505 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/views/snippets/s_media_list.xml 
+2023-10-25 04:41:59,506 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/views/snippets/s_numbers.xml 
+2023-10-25 04:41:59,524 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/views/snippets/s_picture.xml 
+2023-10-25 04:41:59,529 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/views/snippets/s_product_list.xml 
+2023-10-25 04:41:59,534 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/views/snippets/s_rating.xml 
+2023-10-25 04:41:59,557 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/views/snippets/s_references.xml 
+2023-10-25 04:41:59,562 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/views/snippets/s_showcase.xml 
+2023-10-25 04:41:59,568 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/views/snippets/s_text_block.xml 
+2023-10-25 04:41:59,576 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/views/snippets/s_text_highlight.xml 
+2023-10-25 04:41:59,583 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/views/snippets/s_text_image.xml 
+2023-10-25 04:41:59,591 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/views/snippets/s_three_columns.xml 
+2023-10-25 04:41:59,597 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing/views/snippets/s_title.xml 
+2023-10-25 04:41:59,623 7120 INFO juleb_inv odoo.modules.loading: Module mass_mailing loaded in 4.15s, 2136 queries (+2136 other) 
+2023-10-25 04:41:59,623 7120 INFO juleb_inv odoo.modules.loading: Loading module project (47/51) 
+2023-10-25 04:41:59,846 7120 INFO juleb_inv odoo.modules.registry: module project: creating or updating database tables 
+2023-10-25 04:42:02,586 7120 INFO juleb_inv odoo.modules.loading: loading project/security/project_security.xml 
+2023-10-25 04:42:02,945 7120 INFO juleb_inv odoo.modules.loading: loading project/security/ir.model.access.csv 
+2023-10-25 04:42:02,995 7120 INFO juleb_inv odoo.modules.loading: loading project/security/ir.model.access.xml 
+2023-10-25 04:42:03,000 7120 INFO juleb_inv odoo.modules.loading: loading project/data/digest_data.xml 
+2023-10-25 04:42:03,010 7120 INFO juleb_inv odoo.modules.loading: loading project/report/project_report_views.xml 
+2023-10-25 04:42:03,027 7120 INFO juleb_inv odoo.modules.loading: loading project/report/project_task_burndown_chart_report_views.xml 
+2023-10-25 04:42:03,062 7120 INFO juleb_inv odoo.modules.loading: loading project/views/analytic_views.xml 
+2023-10-25 04:42:03,062 7120 INFO juleb_inv odoo.modules.loading: loading project/views/digest_views.xml 
+2023-10-25 04:42:03,078 7120 INFO juleb_inv odoo.modules.loading: loading project/views/rating_rating_views.xml 
+2023-10-25 04:42:03,181 7120 INFO juleb_inv odoo.modules.loading: loading project/views/project_update_views.xml 
+2023-10-25 04:42:03,195 7120 INFO juleb_inv odoo.modules.loading: loading project/views/project_update_templates.xml 
+2023-10-25 04:42:03,212 7120 INFO juleb_inv odoo.modules.loading: loading project/views/project_project_stage_views.xml 
+2023-10-25 04:42:03,261 7120 INFO juleb_inv odoo.modules.loading: loading project/wizard/project_share_wizard_views.xml 
+2023-10-25 04:42:03,274 7120 INFO juleb_inv odoo.modules.loading: loading project/views/project_collaborator_views.xml 
+2023-10-25 04:42:03,288 7120 INFO juleb_inv odoo.modules.loading: loading project/views/project_views.xml 
+2023-10-25 04:42:03,784 7120 INFO juleb_inv odoo.modules.loading: loading project/views/project_milestone_views.xml 
+2023-10-25 04:42:03,805 7120 INFO juleb_inv odoo.modules.loading: loading project/views/res_partner_views.xml 
+2023-10-25 04:42:03,827 7120 INFO juleb_inv odoo.modules.loading: loading project/views/res_config_settings_views.xml 
+2023-10-25 04:42:03,877 7120 INFO juleb_inv odoo.modules.loading: loading project/views/mail_activity_views.xml 
+2023-10-25 04:42:03,886 7120 INFO juleb_inv odoo.modules.loading: loading project/views/project_sharing_views.xml 
+2023-10-25 04:42:03,964 7120 INFO juleb_inv odoo.modules.loading: loading project/views/project_portal_templates.xml 
+2023-10-25 04:42:04,054 7120 INFO juleb_inv odoo.modules.loading: loading project/views/project_task_templates.xml 
+2023-10-25 04:42:04,060 7120 INFO juleb_inv odoo.modules.loading: loading project/views/project_sharing_templates.xml 
+2023-10-25 04:42:04,075 7120 INFO juleb_inv odoo.modules.loading: loading project/data/ir_cron_data.xml 
+2023-10-25 04:42:04,079 7120 INFO juleb_inv odoo.modules.loading: loading project/data/mail_message_subtype_data.xml 
+2023-10-25 04:42:04,147 7120 INFO juleb_inv odoo.modules.loading: loading project/data/mail_template_data.xml 
+2023-10-25 04:42:04,164 7120 INFO juleb_inv odoo.modules.loading: loading project/data/project_data.xml 
+2023-10-25 04:42:04,187 7120 INFO juleb_inv odoo.modules.loading: loading project/wizard/project_task_type_delete_views.xml 
+2023-10-25 04:42:04,297 7120 INFO juleb_inv odoo.modules.loading: Module project loaded in 4.67s, 2375 queries (+2375 other) 
+2023-10-25 04:42:04,297 7120 INFO juleb_inv odoo.modules.loading: Loading module mass_mailing_themes (49/51) 
+2023-10-25 04:42:04,434 7120 INFO juleb_inv odoo.modules.loading: loading mass_mailing_themes/views/mass_mailing_themes_templates.xml 
+2023-10-25 04:42:04,531 7120 INFO juleb_inv odoo.modules.loading: Module mass_mailing_themes loaded in 0.23s, 58 queries (+58 other) 
+2023-10-25 04:42:04,531 7120 INFO juleb_inv odoo.modules.loading: Loading module project_sms (50/51) 
+2023-10-25 04:42:04,671 7120 INFO juleb_inv odoo.modules.registry: module project_sms: creating or updating database tables 
+2023-10-25 04:42:04,898 7120 INFO juleb_inv odoo.modules.loading: loading project_sms/views/project_stage_views.xml 
+2023-10-25 04:42:04,948 7120 INFO juleb_inv odoo.modules.loading: loading project_sms/views/project_task_type_views.xml 
+2023-10-25 04:42:04,982 7120 INFO juleb_inv odoo.modules.loading: loading project_sms/views/project_views.xml 
+2023-10-25 04:42:04,999 7120 INFO juleb_inv odoo.modules.loading: loading project_sms/security/ir.model.access.csv 
+2023-10-25 04:42:05,009 7120 INFO juleb_inv odoo.modules.loading: loading project_sms/security/project_sms_security.xml 
+2023-10-25 04:42:05,031 7120 INFO juleb_inv odoo.modules.loading: Module project_sms loaded in 0.50s, 174 queries (+174 other) 
+2023-10-25 04:42:05,031 7120 INFO juleb_inv odoo.modules.loading: 51 modules loaded in 26.02s, 12276 queries (+12276 extra) 
+2023-10-25 04:42:05,764 7120 INFO juleb_inv odoo.modules.loading: Modules loaded. 
+2023-10-25 04:42:05,765 7120 INFO juleb_inv odoo.modules.registry: Registry loaded in 63.003s 
+2023-10-25 04:42:05,765 7120 INFO juleb_inv odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2023-10-25 04:42:05,783 7120 INFO juleb_inv odoo.modules.registry: Registry changed, signaling through the database 
+2023-10-25 04:42:05,783 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:42:05] "POST /web/dataset/call_button HTTP/1.1" 200 - 29103 46.259 16.861
+2023-10-25 04:42:06,135 7120 INFO juleb_inv odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-10-25 04:42:21,089 7120 INFO juleb_inv odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2023-10-25 04:42:21,090 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:42:21] "GET /web HTTP/1.1" 200 - 176 0.231 14.724
+2023-10-25 04:42:21,140 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:42:21] "GET /web/assets/108-4b5b5a7/web.assets_common.min.css HTTP/1.1" 200 - 9 0.016 0.000
+2023-10-25 04:42:21,140 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:42:21] "GET /web/assets/109-1c22d47/web.assets_backend.min.css HTTP/1.1" 200 - 7 0.000 0.016
+2023-10-25 04:42:21,501 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:42:21] "GET /web/assets/112-bf6dfd3/web.assets_backend_prod_only.min.js HTTP/1.1" 200 - 4 0.022 0.044
+2023-10-25 04:42:21,510 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:42:21] "GET /web/webclient/translations/6715cc505a20edee11ea17103d73c0e06ddf4a6a?lang=en_US HTTP/1.1" 200 - 2 0.001 0.034
+2023-10-25 04:42:21,523 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:42:21] "GET /web/webclient/load_menus/e5b9ec55063bbe95eb8a60b401119c62a688a929bb2d3beabb6569e0f640ae7e HTTP/1.1" 200 - 31 0.044 0.032
+2023-10-25 04:42:21,607 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:42:21] "GET /web/assets/111-1c22d47/web.assets_backend.min.js HTTP/1.1" 200 - 4 0.004 0.171
+2023-10-25 04:42:21,741 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:42:21] "GET /web/assets/110-4b5b5a7/web.assets_common.min.js HTTP/1.1" 200 - 4 0.013 0.298
+2023-10-25 04:42:21,847 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:42:21] "GET /web/assets/112-bf6dfd3/web.assets_backend_prod_only.min.js HTTP/1.1" 200 - 4 0.003 0.003
+2023-10-25 04:42:21,991 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:42:21] "GET /web/assets/111-1c22d47/web.assets_backend.min.js HTTP/1.1" 200 - 4 0.000 0.000
+2023-10-25 04:42:22,098 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:42:22] "GET /web/assets/110-4b5b5a7/web.assets_common.min.js HTTP/1.1" 200 - 4 0.002 0.004
+2023-10-25 04:42:22,676 7120 INFO juleb_inv odoo.addons.partner_autocomplete.models.res_company: Starting enrich of company My Company (1) 
+2023-10-25 04:42:22,676 7120 INFO juleb_inv odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2023-10-25 04:42:22,676 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:42:22] "POST /web/dataset/call_kw/res.company/iap_enrich_auto HTTP/1.1" 200 - 15 0.016 0.001
+2023-10-25 04:42:22,710 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:42:22] "POST /web/action/load HTTP/1.1" 200 - 17 0.008 0.007
+2023-10-25 04:42:22,762 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:42:22] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 6 0.014 0.002
+2023-10-25 04:42:22,764 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:42:22] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 16 0.014 0.005
+2023-10-25 04:42:22,780 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:42:22] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 4 0.000 0.012
+2023-10-25 04:42:23,130 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:42:23] "GET /mail/static/src/audio/ting.ogg HTTP/1.1" 206 - 0 0.000 0.001
+2023-10-25 04:42:23,144 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:42:23] "POST /mail/init_messaging HTTP/1.1" 200 - 95 0.078 0.132
+2023-10-25 04:42:23,146 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:42:23] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.013
+2023-10-25 04:42:23,152 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:42:23] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 3 0.010 0.014
+2023-10-25 04:42:23,185 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:42:23] "POST /mail/inbox/messages HTTP/1.1" 200 - 5 0.016 0.003
+2023-10-25 04:42:23,517 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:42:23] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.011 0.028
+2023-10-25 04:42:23,535 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:42:23] "GET /web/image/mail.channel/1/avatar_128?unique=d4a5e1e34f7e5b1a468ea82305332b1a3746e3dbcddc85f14cf85a7a89f87956e85a5712b869aeab395fb14cb7e863efb15309108196572bcb30763db766cd8e HTTP/1.1" 200 - 4 0.003 0.005
+2023-10-25 04:42:23,540 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:42:23] "GET /web/image/res.partner/2/avatar_128 HTTP/1.1" 200 - 7 0.004 0.009
+2023-10-25 04:42:25,587 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:42:25] "POST /web/action/load HTTP/1.1" 200 - 12 0.043 0.009
+2023-10-25 04:42:25,864 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:42:25] "POST /web/dataset/call_kw/stock.picking.type/get_views HTTP/1.1" 200 - 37 0.029 0.025
+2023-10-25 04:42:25,925 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:42:25] "POST /web/dataset/call_kw/stock.picking.type/web_search_read HTTP/1.1" 200 - 16 0.015 0.011
+2023-10-25 04:42:29,453 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:42:29] "POST /web/action/load HTTP/1.1" 200 - 13 0.003 0.011
+2023-10-25 04:42:29,884 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:42:29] "POST /web/dataset/call_kw/product.template/get_views HTTP/1.1" 200 - 57 0.038 0.072
+2023-10-25 04:42:30,027 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:42:30] "POST /web/dataset/call_kw/product.template/web_search_read HTTP/1.1" 200 - 6 0.000 0.006
+2023-10-25 04:42:30,203 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:42:30] "GET /web/static/img/smiling_face.svg HTTP/1.1" 200 - 0 0.000 0.001
+2023-10-25 04:42:30,427 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:42:30] "GET /web/image?model=product.template&field=image_128&id=10&unique=1699926150000 HTTP/1.1" 200 - 6 0.003 0.018
+2023-10-25 04:42:30,455 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:42:30] "GET /web/image?model=product.template&field=image_128&id=7&unique=1697226150000 HTTP/1.1" 200 - 5 0.007 0.023
+2023-10-25 04:42:30,457 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:42:30] "GET /web/image?model=product.template&field=image_128&id=8&unique=1700372550000 HTTP/1.1" 200 - 5 0.006 0.029
+2023-10-25 04:42:30,458 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:42:30] "GET /web/image?model=product.template&field=image_128&id=9&unique=1697301750000 HTTP/1.1" 200 - 5 0.007 0.027
+2023-10-25 04:42:30,463 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:42:30] "GET /web/image?model=product.template&field=image_128&id=1&unique=1696815750000 HTTP/1.1" 200 - 5 0.007 0.028
+2023-10-25 04:42:30,538 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:42:30] "GET /web/image?model=product.template&field=image_128&id=2&unique=1698842550000 HTTP/1.1" 200 - 5 0.000 0.018
+2023-10-25 04:42:30,758 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:42:30] "GET /web/image?model=product.template&field=image_128&id=3&unique=1697528550000 HTTP/1.1" 200 - 5 0.000 0.019
+2023-10-25 04:42:30,782 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:42:30] "GET /web/image?model=product.template&field=image_128&id=4&unique=1697856150000 HTTP/1.1" 200 - 5 0.007 0.015
+2023-10-25 04:42:30,782 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:42:30] "GET /web/image?model=product.template&field=image_128&id=5&unique=1697319750000 HTTP/1.1" 200 - 5 0.000 0.022
+2023-10-25 04:42:30,791 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:42:30] "GET /web/image?model=product.template&field=image_128&id=6&unique=1698658950000 HTTP/1.1" 200 - 5 0.007 0.017
+2023-10-25 04:43:37,064 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:43:37] "POST /web/action/load HTTP/1.1" 200 - 10 0.000 0.016
+2023-10-25 04:43:37,381 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:43:37] "POST /web/dataset/call_kw/res.config.settings/get_views HTTP/1.1" 200 - 24 0.019 0.048
+2023-10-25 04:43:37,465 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:43:37] "POST /web/dataset/call_kw/res.config.settings/onchange HTTP/1.1" 200 - 95 0.048 0.001
+2023-10-25 04:43:37,882 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:43:37] "POST /base_setup/demo_active HTTP/1.1" 200 - 3 0.000 0.000
+2023-10-25 04:43:37,945 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:43:37] "POST /base_setup/data HTTP/1.1" 200 - 6 0.016 0.000
+2023-10-25 04:43:38,132 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:43:38] "GET /base/static/description/settings.png HTTP/1.1" 200 - 0 0.000 0.000
+2023-10-25 04:43:38,296 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:43:38] "GET /web/static/img/transparent.png HTTP/1.1" 200 - 0 0.000 0.000
+2023-10-25 04:43:38,324 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:43:38] "GET /base_setup/static/src/img/google_play.png HTTP/1.1" 200 - 0 0.000 0.008
+2023-10-25 04:43:38,332 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:43:38] "GET /base_setup/static/src/img/app_store.png HTTP/1.1" 200 - 0 0.000 0.005
+2023-10-25 04:43:41,509 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:43:41] "GET /web?debug=1 HTTP/1.1" 200 - 82 0.030 0.755
+2023-10-25 04:43:41,551 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:43:41] "GET /web/webclient/load_menus/4f46c178af0b1ee0e4f00ad5af7582c27c20bf3cc1a4f3a65068286f6d2e9bce HTTP/1.1" 200 - 1 0.001 0.011
+2023-10-25 04:43:42,573 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:43:42] "POST /web/action/load HTTP/1.1" 200 - 9 0.032 0.018
+2023-10-25 04:43:42,573 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:43:42] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 8 0.000 0.051
+2023-10-25 04:43:42,591 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:43:42] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 4 0.001 0.034
+2023-10-25 04:43:42,789 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:43:42] "POST /web/dataset/call_kw/res.config.settings/get_views HTTP/1.1" 200 - 1 0.000 0.000
+2023-10-25 04:43:42,913 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:43:42] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 4 0.003 0.004
+2023-10-25 04:43:42,949 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:43:42] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 2 0.004 0.005
+2023-10-25 04:43:42,955 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:43:42] "POST /mail/init_messaging HTTP/1.1" 200 - 30 0.033 0.016
+2023-10-25 04:43:42,965 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:43:42] "GET /mail/static/src/audio/ting.ogg HTTP/1.1" 206 - 0 0.000 0.005
+2023-10-25 04:43:42,966 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:43:42] "POST /web/dataset/call_kw/res.config.settings/onchange HTTP/1.1" 200 - 16 0.006 0.019
+2023-10-25 04:43:42,975 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:43:42] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.005
+2023-10-25 04:43:43,151 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:43:43] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.000 0.000
+2023-10-25 04:43:43,291 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:43:43] "POST /base_setup/demo_active HTTP/1.1" 200 - 2 0.000 0.000
+2023-10-25 04:43:43,574 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:43:43] "POST /base_setup/data HTTP/1.1" 200 - 5 0.000 0.182
+2023-10-25 04:43:49,969 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:43:49] "POST /web/action/load HTTP/1.1" 200 - 13 0.012 0.003
+2023-10-25 04:43:50,339 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:43:50] "POST /web/dataset/call_kw/ir.model.fields/get_views HTTP/1.1" 200 - 24 0.017 0.027
+2023-10-25 04:43:50,562 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:43:50] "POST /web/dataset/call_kw/ir.model.fields/web_search_read HTTP/1.1" 200 - 6 0.000 0.010
+2023-10-25 04:43:50,671 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:43:50] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.000 0.004
+2023-10-25 04:43:58,423 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:43:58] "POST /web/dataset/call_kw/ir.model.fields/web_search_read HTTP/1.1" 200 - 4 0.030 0.004
+2023-10-25 04:44:02,036 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:44:02] "POST /web/dataset/call_kw/ir.model.fields/read HTTP/1.1" 200 - 11 0.018 0.032
+2023-10-25 04:44:02,251 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:44:02] "GET /web/static/lib/ace/ace.js HTTP/1.1" 200 - 0 0.000 0.000
+2023-10-25 04:44:02,271 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:44:02] "GET /web/static/lib/ace/ace.js HTTP/1.1" 200 - 0 0.000 0.000
+2023-10-25 04:44:02,403 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:44:02] "GET /web/static/lib/ace/mode-python.js HTTP/1.1" 200 - 0 0.000 0.000
+2023-10-25 04:44:02,644 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:44:02] "GET /web/static/lib/ace/mode-xml.js HTTP/1.1" 200 - 0 0.000 0.000
+2023-10-25 04:44:02,659 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:44:02] "GET /web/static/lib/ace/mode-qweb.js HTTP/1.1" 200 - 0 0.000 0.016
+2023-10-25 04:44:02,719 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:44:02] "GET /web/static/lib/ace/mode-python.js HTTP/1.1" 200 - 0 0.000 0.001
+2023-10-25 04:44:02,974 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:44:02] "GET /web/static/lib/ace/mode-xml.js HTTP/1.1" 200 - 0 0.000 0.004
+2023-10-25 04:44:03,010 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:44:03] "GET /web/static/lib/ace/mode-qweb.js HTTP/1.1" 200 - 0 0.000 0.004
+2023-10-25 04:44:11,609 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:44:11] "POST /web/action/load HTTP/1.1" 200 - 9 0.002 0.006
+2023-10-25 04:44:11,948 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:44:11] "POST /web/dataset/call_kw/stock.picking.type/get_views HTTP/1.1" 200 - 2 0.002 0.008
+2023-10-25 04:44:12,199 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:44:12] "POST /web/dataset/call_kw/stock.picking.type/web_search_read HTTP/1.1" 200 - 9 0.016 0.000
+2023-10-25 04:44:15,076 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:44:15] "POST /web/action/load HTTP/1.1" 200 - 9 0.010 0.007
+2023-10-25 04:44:15,190 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:44:15] "POST /mail/init_messaging HTTP/1.1" 200 - 30 0.039 0.008
+2023-10-25 04:44:15,458 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:44:15] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 2 0.000 0.000
+2023-10-25 04:44:15,536 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:44:15] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.000 0.016
+2023-10-25 04:44:16,928 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:44:16] "POST /web/action/load HTTP/1.1" 200 - 10 0.001 0.015
+2023-10-25 04:44:17,214 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:44:17] "POST /web/dataset/call_kw/product.template/get_views HTTP/1.1" 200 - 2 0.010 0.037
+2023-10-25 04:44:17,261 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:44:17] "POST /web/dataset/call_kw/product.template/web_search_read HTTP/1.1" 200 - 2 0.000 0.008
+2023-10-25 04:44:17,730 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:44:17] "GET /web/image?model=product.template&field=image_128&id=1&unique=1698903857000 HTTP/1.1" 200 - 5 0.007 0.071
+2023-10-25 04:44:17,730 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:44:17] "GET /web/image?model=product.template&field=image_128&id=2&unique=1699346657000 HTTP/1.1" 200 - 5 0.004 0.071
+2023-10-25 04:44:17,730 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:44:17] "GET /web/image?model=product.template&field=image_128&id=3&unique=1695566657000 HTTP/1.1" 200 - 5 0.006 0.067
+2023-10-25 04:44:17,755 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:44:17] "GET /web/image?model=product.template&field=image_128&id=5&unique=1695635057000 HTTP/1.1" 200 - 5 0.003 0.086
+2023-10-25 04:44:17,757 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:44:17] "GET /web/image?model=product.template&field=image_128&id=6&unique=1697075057000 HTTP/1.1" 200 - 5 0.003 0.085
+2023-10-25 04:44:17,758 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:44:17] "GET /web/image?model=product.template&field=image_128&id=4&unique=1698237857000 HTTP/1.1" 200 - 5 0.012 0.085
+2023-10-25 04:44:18,064 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:44:18] "GET /web/image?model=product.template&field=image_128&id=7&unique=1699076657000 HTTP/1.1" 200 - 5 0.000 0.018
+2023-10-25 04:44:18,064 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:44:18] "GET /web/image?model=product.template&field=image_128&id=8&unique=1697409857000 HTTP/1.1" 200 - 5 0.000 0.018
+2023-10-25 04:44:18,064 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:44:18] "GET /web/image?model=product.template&field=image_128&id=9&unique=1700484257000 HTTP/1.1" 200 - 5 0.000 0.018
+2023-10-25 04:44:18,083 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:44:18] "GET /web/image?model=product.template&field=image_128&id=10&unique=1698734657000 HTTP/1.1" 200 - 5 0.000 0.018
+2023-10-25 04:44:21,402 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:44:21] "POST /web/dataset/call_kw/product.template/get_import_templates HTTP/1.1" 200 - 1 0.000 0.000
+2023-10-25 04:44:21,661 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:44:21] "POST /web/dataset/call_kw/base_import.import/create HTTP/1.1" 200 - 5 0.018 0.004
+2023-10-25 04:44:31,658 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:44:31] "GET /product/static/xls/product_template.xls HTTP/1.1" 200 - 0 0.000 0.002
+2023-10-25 04:44:49,630 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:44:49] "POST /base_import/set_file HTTP/1.1" 200 - 4 0.000 0.033
+2023-10-25 04:44:49,964 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:44:49] "GET /web/static/img/spin.png HTTP/1.1" 200 - 0 0.000 0.000
+2023-10-25 04:44:50,315 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:44:50] "POST /web/dataset/call_kw/base_import.import/parse_preview HTTP/1.1" 200 - 139 0.051 0.300
+2023-10-25 04:44:50,365 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:44:50] "GET /base_import/static/src/legacy/img/ui/dropdown_arrow_small.png HTTP/1.1" 200 - 0 0.000 0.001
+2023-10-25 04:44:50,735 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:44:50] "POST /web/dataset/call_kw/product.template/fields_get HTTP/1.1" 200 - 1 0.000 0.000
+2023-10-25 04:44:50,735 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:44:50] "GET /web/static/lib/select2/select2.png HTTP/1.1" 200 - 0 0.000 0.000
+2023-10-25 04:44:50,766 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:44:50] "GET /base_import/static/src/legacy/img/ui/studio_icons.png HTTP/1.1" 200 - 0 0.000 0.031
+2023-10-25 04:45:03,002 7120 INFO juleb_inv odoo.addons.base_import.models.base_import: importing 25 rows... 
+2023-10-25 04:45:03,286 7120 INFO juleb_inv odoo.addons.base_import.models.base_import: done 
+2023-10-25 04:45:03,302 7120 INFO juleb_inv odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2023-10-25 04:45:03,302 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:45:03] "POST /web/dataset/call_kw/base_import.import/execute_import HTTP/1.1" 200 - 267 0.136 0.290
+2023-10-25 04:45:03,737 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:45:03] "POST /web/dataset/call_kw/product.template/web_search_read HTTP/1.1" 200 - 40 0.062 0.036
+2023-10-25 04:45:03,919 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:45:03] "GET /web/image?model=product.template&field=image_128&id=14&unique=1698209102000 HTTP/1.1" 200 - 10 0.000 0.017
+2023-10-25 04:45:04,145 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:45:04] "GET /web/image?model=product.template&field=image_128&id=24&unique=1698209102000 HTTP/1.1" 200 - 4 0.006 0.018
+2023-10-25 04:45:04,146 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:45:04] "GET /web/image?model=product.template&field=image_128&id=11&unique=1698209102000 HTTP/1.1" 200 - 4 0.005 0.019
+2023-10-25 04:45:04,148 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:45:04] "GET /web/image?model=product.template&field=image_128&id=23&unique=1698209102000 HTTP/1.1" 200 - 4 0.005 0.022
+2023-10-25 04:45:04,151 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:45:04] "GET /web/image?model=product.template&field=image_128&id=16&unique=1698209102000 HTTP/1.1" 200 - 4 0.005 0.022
+2023-10-25 04:45:04,151 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:45:04] "GET /web/image?model=product.template&field=image_128&id=7&unique=1698209102000 HTTP/1.1" 200 - 4 0.003 0.024
+2023-10-25 04:45:04,267 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:45:04] "GET /web/image?model=product.template&field=image_128&id=4&unique=1698209102000 HTTP/1.1" 200 - 4 0.004 0.026
+2023-10-25 04:45:04,482 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:45:04] "GET /web/image?model=product.template&field=image_128&id=8&unique=1698209102000 HTTP/1.1" 200 - 4 0.000 0.031
+2023-10-25 04:45:04,505 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:45:04] "GET /web/image?model=product.template&field=image_128&id=20&unique=1698209102000 HTTP/1.1" 200 - 4 0.031 0.007
+2023-10-25 04:45:04,505 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:45:04] "GET /web/image?model=product.template&field=image_128&id=21&unique=1698209102000 HTTP/1.1" 200 - 4 0.000 0.038
+2023-10-25 04:45:04,527 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:45:04] "GET /web/image?model=product.template&field=image_128&id=22&unique=1698209102000 HTTP/1.1" 200 - 4 0.002 0.043
+2023-10-25 04:45:04,527 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:45:04] "GET /web/image?model=product.template&field=image_128&id=13&unique=1698209102000 HTTP/1.1" 200 - 4 0.019 0.026
+2023-10-25 04:45:04,579 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:45:04] "GET /web/image?model=product.template&field=image_128&id=2&unique=1698209102000 HTTP/1.1" 200 - 4 0.000 0.008
+2023-10-25 04:45:04,842 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:45:04] "GET /web/image?model=product.template&field=image_128&id=9&unique=1698209102000 HTTP/1.1" 200 - 4 0.000 0.031
+2023-10-25 04:45:04,864 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:45:04] "GET /web/image?model=product.template&field=image_128&id=5&unique=1698209102000 HTTP/1.1" 200 - 4 0.016 0.023
+2023-10-25 04:45:04,864 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:45:04] "GET /web/image?model=product.template&field=image_128&id=12&unique=1698209102000 HTTP/1.1" 200 - 4 0.000 0.038
+2023-10-25 04:45:04,876 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:45:04] "GET /web/image?model=product.template&field=image_128&id=1&unique=1698209102000 HTTP/1.1" 200 - 4 0.009 0.005
+2023-10-25 04:45:04,876 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:45:04] "GET /web/image?model=product.template&field=image_128&id=3&unique=1698209102000 HTTP/1.1" 200 - 4 0.002 0.033
+2023-10-25 04:45:04,893 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:45:04] "GET /web/image?model=product.template&field=image_128&id=15&unique=1698209102000 HTTP/1.1" 200 - 4 0.001 0.016
+2023-10-25 04:45:05,179 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:45:05] "GET /web/image?model=product.template&field=image_128&id=25&unique=1698209102000 HTTP/1.1" 200 - 4 0.001 0.006
+2023-10-25 04:45:05,191 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:45:05] "GET /web/image?model=product.template&field=image_128&id=6&unique=1698209102000 HTTP/1.1" 200 - 4 0.001 0.009
+2023-10-25 04:45:05,191 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:45:05] "GET /web/image?model=product.template&field=image_128&id=19&unique=1698209102000 HTTP/1.1" 200 - 4 0.002 0.007
+2023-10-25 04:45:05,191 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:45:05] "GET /web/image?model=product.template&field=image_128&id=18&unique=1698209102000 HTTP/1.1" 200 - 4 0.000 0.002
+2023-10-25 04:45:05,208 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:45:05] "GET /web/image?model=product.template&field=image_128&id=17&unique=1698209102000 HTTP/1.1" 200 - 4 0.000 0.017
+2023-10-25 04:45:05,208 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:45:05] "GET /web/image?model=product.template&field=image_128&id=10&unique=1698209102000 HTTP/1.1" 200 - 4 0.000 0.002
+2023-10-25 04:45:12,351 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:45:12] "POST /web/dataset/call_kw/product.template/get_import_templates HTTP/1.1" 200 - 1 0.000 0.000
+2023-10-25 04:45:12,601 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:45:12] "POST /web/dataset/call_kw/base_import.import/create HTTP/1.1" 200 - 5 0.005 0.006
+2023-10-25 04:45:54,392 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:45:54] "GET /mail/static/src/audio/ting.ogg HTTP/1.1" 206 - 0 0.000 0.001
+2023-10-25 04:45:54,737 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:45:54] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 12 0.015 0.001
+2023-10-25 04:45:54,771 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:45:54] "POST /web/dataset/call_kw/stock.picking.type/get_views HTTP/1.1" 200 - 40 0.032 0.018
+2023-10-25 04:45:54,987 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:45:54] "POST /web/dataset/call_kw/stock.picking.type/web_search_read HTTP/1.1" 200 - 16 0.009 0.007
+2023-10-25 04:46:03,920 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:46:03] "POST /web/action/load HTTP/1.1" 200 - 14 0.001 0.012
+2023-10-25 04:46:04,350 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:46:04] "POST /web/dataset/call_kw/product.template/get_views HTTP/1.1" 200 - 53 0.033 0.079
+2023-10-25 04:46:04,619 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:46:04] "POST /web/dataset/call_kw/product.template/web_search_read HTTP/1.1" 200 - 18 0.065 0.052
+2023-10-25 04:46:23,050 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:46:23] "POST /web/dataset/call_kw/product.template/read HTTP/1.1" 200 - 64 0.046 0.035
+2023-10-25 04:46:23,378 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:46:23] "POST /web/dataset/call_kw/stock.route/name_search HTTP/1.1" 200 - 2 0.004 0.005
+2023-10-25 04:46:23,623 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:46:23] "POST /mail/thread/messages HTTP/1.1" 200 - 7 0.002 0.003
+2023-10-25 04:46:23,801 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:46:23] "POST /mail/thread/data HTTP/1.1" 200 - 14 0.013 0.018
+2023-10-25 04:46:25,319 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:46:25] "GET /web/bundle/web_editor.assets_wysiwyg?lang=en_US&debug=1 HTTP/1.1" 200 - 22 0.031 1.517
+2023-10-25 04:46:25,352 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:46:25] "GET /web/assets/113-d86aa9b/web_editor.assets_wysiwyg.min.css HTTP/1.1" 200 - 4 0.002 0.025
+2023-10-25 04:46:25,815 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:46:25] "GET /web/assets/114-d86aa9b/web_editor.assets_wysiwyg.min.js HTTP/1.1" 200 - 4 0.000 0.177
+2023-10-25 04:46:26,152 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:46:26] "GET /web/assets/114-d86aa9b/web_editor.assets_wysiwyg.min.js HTTP/1.1" 200 - 4 0.000 0.000
+2023-10-25 04:46:26,239 7120 INFO ? werkzeug: 127.0.0.1 - - [25/Oct/2023 04:46:26] "GET /web/static/img/placeholder.png HTTP/1.1" 200 - 0 0.000 0.002
+2023-10-25 04:46:33,370 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:46:33] "POST /base_import/set_file HTTP/1.1" 200 - 5 0.000 0.000
+2023-10-25 04:46:33,899 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:46:33] "POST /web/dataset/call_kw/base_import.import/parse_preview HTTP/1.1" 200 - 126 0.068 0.131
+2023-10-25 04:46:33,959 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:46:33] "POST /web/dataset/call_kw/product.template/fields_get HTTP/1.1" 200 - 1 0.000 0.006
+2023-10-25 04:46:41,214 7120 INFO juleb_inv odoo.addons.base_import.models.base_import: importing 25 rows... 
+2023-10-25 04:46:41,459 7120 INFO juleb_inv odoo.addons.base_import.models.base_import: done 
+2023-10-25 04:46:41,474 7120 INFO juleb_inv odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2023-10-25 04:46:41,474 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:46:41] "POST /web/dataset/call_kw/base_import.import/execute_import HTTP/1.1" 200 - 257 0.102 0.187
+2023-10-25 04:46:41,928 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:46:41] "POST /web/dataset/call_kw/product.template/web_search_read HTTP/1.1" 200 - 41 0.063 0.051
+2023-10-25 04:46:42,113 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:46:42] "GET /web/image?model=product.template&field=image_128&id=39&unique=1698209201000 HTTP/1.1" 200 - 10 0.005 0.005
+2023-10-25 04:46:42,374 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:46:42] "GET /web/image?model=product.template&field=image_128&id=48&unique=1698209201000 HTTP/1.1" 200 - 4 0.004 0.021
+2023-10-25 04:46:42,375 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:46:42] "GET /web/image?model=product.template&field=image_128&id=49&unique=1698209201000 HTTP/1.1" 200 - 4 0.005 0.018
+2023-10-25 04:46:42,404 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:46:42] "GET /web/image?model=product.template&field=image_128&id=36&unique=1698209201000 HTTP/1.1" 200 - 4 0.008 0.019
+2023-10-25 04:46:42,408 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:46:42] "GET /web/image?model=product.template&field=image_128&id=32&unique=1698209201000 HTTP/1.1" 200 - 4 0.006 0.017
+2023-10-25 04:46:42,410 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:46:42] "GET /web/image?model=product.template&field=image_128&id=41&unique=1698209201000 HTTP/1.1" 200 - 4 0.004 0.016
+2023-10-25 04:46:42,440 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:46:42] "GET /web/image?model=product.template&field=image_128&id=26&unique=1698209201000 HTTP/1.1" 200 - 4 0.002 0.009
+2023-10-25 04:46:42,740 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:46:42] "GET /web/image?model=product.template&field=image_128&id=40&unique=1698209201000 HTTP/1.1" 200 - 4 0.000 0.047
+2023-10-25 04:46:42,740 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:46:42] "GET /web/image?model=product.template&field=image_128&id=38&unique=1698209201000 HTTP/1.1" 200 - 4 0.000 0.047
+2023-10-25 04:46:42,756 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:46:42] "GET /web/image?model=product.template&field=image_128&id=27&unique=1698209201000 HTTP/1.1" 200 - 4 0.016 0.032
+2023-10-25 04:46:42,767 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:46:42] "GET /web/image?model=product.template&field=image_128&id=45&unique=1698209201000 HTTP/1.1" 200 - 4 0.011 0.032
+2023-10-25 04:46:42,767 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:46:42] "GET /web/image?model=product.template&field=image_128&id=33&unique=1698209201000 HTTP/1.1" 200 - 4 0.030 0.013
+2023-10-25 04:46:42,767 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:46:42] "GET /web/image?model=product.template&field=image_128&id=46&unique=1698209201000 HTTP/1.1" 200 - 4 0.002 0.009
+2023-10-25 04:46:43,110 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:46:43] "GET /web/image?model=product.template&field=image_128&id=37&unique=1698209201000 HTTP/1.1" 200 - 4 0.011 0.036
+2023-10-25 04:46:43,115 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:46:43] "GET /web/image?model=product.template&field=image_128&id=34&unique=1698209201000 HTTP/1.1" 200 - 4 0.006 0.039
+2023-10-25 04:46:43,115 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:46:43] "GET /web/image?model=product.template&field=image_128&id=29&unique=1698209201000 HTTP/1.1" 200 - 4 0.006 0.017
+2023-10-25 04:46:43,115 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:46:43] "GET /web/image?model=product.template&field=image_128&id=28&unique=1698209201000 HTTP/1.1" 200 - 4 0.007 0.022
+2023-10-25 04:46:43,115 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:46:43] "GET /web/image?model=product.template&field=image_128&id=47&unique=1698209201000 HTTP/1.1" 200 - 4 0.010 0.029
+2023-10-25 04:46:43,136 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:46:43] "GET /web/image?model=product.template&field=image_128&id=50&unique=1698209201000 HTTP/1.1" 200 - 4 0.001 0.020
+2023-10-25 04:46:43,435 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:46:43] "GET /web/image?model=product.template&field=image_128&id=30&unique=1698209201000 HTTP/1.1" 200 - 4 0.000 0.014
+2023-10-25 04:46:43,438 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:46:43] "GET /web/image?model=product.template&field=image_128&id=31&unique=1698209201000 HTTP/1.1" 200 - 4 0.003 0.008
+2023-10-25 04:46:43,451 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:46:43] "GET /web/image?model=product.template&field=image_128&id=44&unique=1698209201000 HTTP/1.1" 200 - 4 0.003 0.011
+2023-10-25 04:46:43,471 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:46:43] "GET /web/image?model=product.template&field=image_128&id=43&unique=1698209201000 HTTP/1.1" 200 - 4 0.000 0.020
+2023-10-25 04:46:43,472 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:46:43] "GET /web/image?model=product.template&field=image_128&id=35&unique=1698209201000 HTTP/1.1" 200 - 4 0.002 0.018
+2023-10-25 04:46:43,472 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:46:43] "GET /web/image?model=product.template&field=image_128&id=42&unique=1698209201000 HTTP/1.1" 200 - 4 0.000 0.020
+2023-10-25 04:47:25,006 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:47:25] "GET /web HTTP/1.1" 200 - 87 0.053 0.745
+2023-10-25 04:47:25,801 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:47:25] "POST /mail/init_messaging HTTP/1.1" 200 - 50 0.018 0.041
+2023-10-25 04:47:26,065 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:47:26] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 2 0.016 0.000
+2023-10-25 04:47:26,159 7120 INFO juleb_inv werkzeug: 127.0.0.1 - - [25/Oct/2023 04:47:26] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.000 0.016
